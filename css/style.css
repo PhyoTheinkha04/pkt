@@ -19,9 +19,18 @@ body {
 
 }
 
-a {
+.link1 {
     font-family: Arial;
     color: #ED1C24;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 84px;
+    text-decoration: none;
+}
+.link2{
+    font-family: Arial;
+    color: #ffffff;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -38,14 +47,7 @@ a {
 
 }
 
-.head {
-    border-radius: 52% 48% 56% 44% / 62% 50% 50% 38%;
-    position: absolute;
-    z-index: -1;
-    width: 46%;
-    right: -9%;
-    top: -123%;
-}
+
 
 .txt1 {
     font-weight: 600;
@@ -70,12 +72,7 @@ a {
     margin-top: 15px;
 }
 
-.headerTxt {
-    position: absolute;
-    left: 271px;
-    top: 194px;
-    
-}
+
 
 .loginBtn {
     position: absolute;

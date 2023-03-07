@@ -1,12 +1,16 @@
-ul{
-    top: 30px;
+body {
+    overflow: hidden;
+    background-color:#F5F5F5 ;
+}
+
+.nav_items{
     list-style: none;
     padding: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    margin-left: -5%;
+    margin-left: -7%;
     margin-top: 3%;
 }
 
@@ -15,14 +19,16 @@ ul{
 
 }
 
-a { font-family: Arial;
-   
+a {
+    font-family: Arial;
+    color: #ED1C24;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 16px;
-    margin-left: 70px;
+    margin-left: 84px;
     text-decoration: none;
 }
+
 .lo_go {
     margin: auto;
     width: 100.91px;
@@ -31,7 +37,53 @@ a { font-family: Arial;
     margin-top: 0%;
 
 }
-.head{
-    border-radius: 63% 37% 72% 28% / 74% 38% 62% 26%;
+
+.head {
+    border-radius: 52% 48% 56% 44% / 62% 50% 50% 38%;
     position: absolute;
+    z-index: -1;
+    width: 46%;
+    right: -9%;
+    top: -123%;
+}
+
+.txt1 {
+    font-weight: 600;
+    font-size: 36px;
+    margin: 0px;
+    font-family: Arial;
+}
+
+.txt2 {
+    font-weight: 600;
+    font-size: 36px;
+    margin: 0px;
+    font-family: Arial;
+    color: #ED1C24;
+}
+
+.txt3{
+    font-weight: 600;
+    font-size: 13px;
+    color: white;
+    font-family: Arial;
+    margin-top: 15px;
+}
+
+.headerTxt {
+    position: absolute;
+    left: 271px;
+    top: 194px;
+    
+}
+
+.loginBtn {
+    position: absolute;
+    width: 111px;
+    height: 49px;
+    background: #ED1C24;
+    box-shadow: 5px 5px 4px #C9D4DE;
+    border-radius: 30px;
+    text-align: center;
+    top: 120%;
 }

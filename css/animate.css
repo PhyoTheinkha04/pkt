@@ -1,11 +1,10 @@
 .head {
     border-radius: 52% 48% 56% 44% / 62% 50% 50% 38%;
     position: absolute;
-    
     z-index: -1;
-    width: 55%;
-    right: -11%;
-    top: -8%;
+    width: 50%;
+    right: -8%;
+    top: -9%;
     -webkit-animation-name: bounceInDown;
     animation-name: bounceInDown;
     -webkit-animation-duration: 2s;
@@ -17,7 +16,7 @@
 .headerTxt {
     position: absolute;
     left:256px;
-    top: 194px;
+    top: 241px;
     -webkit-animation-name: bounceInDown;
     animation-name: bounceInDown;
     -webkit-animation-duration: 2s;

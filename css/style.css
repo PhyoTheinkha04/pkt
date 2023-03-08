@@ -188,11 +188,12 @@ header{
 
 .course_elements{
 position: absolute;
+left: 244px;
 }
 
 .course{
+    margin: 62px auto;
   position: relative;
-  left: 10px;
     width: 114px;
     height: 114px;
     border-radius: 50%;
@@ -201,6 +202,18 @@ position: absolute;
     list-style: none;
 }
 
+.title1{
+    position: inherit;
+    top: 500px;
+    text-align: center;
+    font-family: Arial;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+color:#ED1C24 ;
+margin-bottom: 50px;
+margin-top: 100px;
+}
 .icon{
     width: 85px;
     height: 85px;
@@ -216,9 +229,8 @@ position: absolute;
     float: left;
     list-style: none;
     position: relative;
-    left: 162px;
+   
     margin-left: 48px;
-    top: 200px;
 }
 .course_OL{
 

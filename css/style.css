@@ -3,7 +3,7 @@ body {
     background-color: #F5F5F5;
 }
 header{
-    
+    height: 500px;
    
 }
 
@@ -11,6 +11,10 @@ header{
     list-style: none;
     position: absolute;
     left: 173px;
+    width: 88.5%;
+    height: 724px;
+    overflow: hidden;
+    top: 0%;
 }
 
 .nav {
@@ -118,7 +122,7 @@ header{
 }
 
 .link2:active::before {
-    background-color: #000;
+    background-color: #f00d0d;
 }
 
 .link2:hover::before,
@@ -183,20 +187,39 @@ header{
 }
 
 .course_elements{
-
+position: absolute;
 }
 
 .course{
-    position: absolute;
+  position: relative;
+  left: 10px;
     width: 114px;
     height: 114px;
-    left: 252px;
-    top: 607px;
-    
+    border-radius: 50%;
     background: #ED1C24;
     box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+    list-style: none;
 }
 
 .icon{
+    width: 85px;
+    height: 85px;
+    margin:13%;
+}
+
+.element{
+    background: rgba(235, 235, 235, 0.5);
+    box-shadow: 8px 8px 4px #c9d4de;
+    border-radius: 24px;
+    width: 287px;
+    height: 238px;
+    float: left;
+    list-style: none;
+    position: relative;
+    left: 162px;
+    margin-left: 48px;
+    top: 200px;
+}
+.course_OL{
 
 }

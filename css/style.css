@@ -281,19 +281,7 @@ header {
     object-fit: contain;
 }
 
-.aboutus_elements {
 
-    width: 86%;
-    height: 465px;
-    overflow: hidden;
-    background: rgba(235, 235, 235, 0.4);
-    box-shadow: 8px 8px 4px #C9D4DE;
-    border-radius: 31px;
-    margin: 0 auto;
-    position: relative;
-    top: 77px;
-
-}
 
 .title3 {
 
@@ -315,10 +303,7 @@ header {
 }
 
 .element2 {
-    float: left;
     list-style: none;
-    position: relative;
-    left: 59px;
     height: 340px;
 }
 
@@ -332,6 +317,23 @@ header {
     float: right;
     padding: 24px 44px;
     margin-left: 63px;
-    margin-right: 102px;
     margin-top: 28px;
+}
+.aboutus_elements{
+    margin: 0 auto;
+    width: 77%;
+    display: flex;
+    justify-content: space-between;
+}
+.aboutus{
+    
+    width: 86%;
+    height: 465px;
+    overflow: hidden;
+    background: rgba(235, 235, 235, 0.4);
+    box-shadow: 8px 8px 4px #c9d4de;
+    border-radius: 31px;
+    margin: 0 auto;
+    margin-top: 77px;
+
 }

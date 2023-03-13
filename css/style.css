@@ -186,8 +186,11 @@ a {
 }
 
 .course_elements {
-    position: absolute;
-    left: 244px;
+    width: 78%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .course {
@@ -215,7 +218,6 @@ a {
 }
 
 .course_OL {
-    width: 956px;
     height: 325px;
     margin: 0 auto;
 }
@@ -243,7 +245,7 @@ a {
 
 .element1 {
     background: rgba(235, 235, 235, 0.5);
-    box-shadow: 8px 8px 4px #c9d4de;
+    box-shadow: 6px 6px 4px #c9d4de;
     border-radius: 24px;
     width: 287px;
     height: 238px;
@@ -336,7 +338,7 @@ a {
     height: 465px;
     overflow: hidden;
     background: rgba(235, 235, 235, 0.4);
-    box-shadow: 8px 8px 4px #c9d4de;
+    box-shadow: 6px 6px 4px #c9d4de;
     border-radius: 31px;
     margin: 0 auto;
     margin-top: 77px;
@@ -351,7 +353,7 @@ a {
     background: rgba(235, 235, 235, 0.4);
     border-radius: 30px;
     padding: 105px 315px;
-    box-shadow: 8px 8px 4px #C9D4DE;
+    box-shadow: 6px 6px 4px #C9D4DE;
 }
 
 .element3 {
@@ -393,8 +395,7 @@ h2 {
 }
 
 .teacher {
-    width: 165px;
-    height: 161px;
+    width: 100%;
     border-radius: 24px;
     margin-bottom: 27px;
 }
@@ -406,9 +407,9 @@ h2 {
 
 .trainer {
     list-style: none;
-    width: 11%;
+    width: 12%;
     background: rgba(225, 225, 225, 0.4);
-    box-shadow: 8px 8px 6px #c9d4de;
+    box-shadow: 6px 6px 6px #c9d4de;
     border-radius: 26px;
     padding: 18px 34px;
 }
@@ -461,7 +462,7 @@ h2 {
 
 .founder {
     background: rgba(225, 225, 225, 0.4);
-    box-shadow: 8px 8px 4px #C9D4DE;
+    box-shadow: 6px 6px 4px #C9D4DE;
     border-radius: 30px;
     width: 819px;
     margin: auto;
@@ -500,11 +501,12 @@ h1 {
 
 .newsDtil {
     background: rgba(225, 225, 225, 0.4);
-    box-shadow: 8px 8px 4px #C9D4DE;
-    border-radius: 26px 0px 0px 26px;
-    width: 85%;
+    box-shadow:6px 6px 2px #C9D4DE;
+    border-radius: 26px 26px 26px 26px;
+    width: 77%;
     height: 185.23px;
-    margin: auto;
+
+    margin-left: 70px;
     margin-bottom: 25px;
     margin-top: 25px;
 }
@@ -530,16 +532,16 @@ h1 {
 }
 
 .newElement {
-    width: 74%;
+    width: 94%;
     height: 500px;
     overflow: auto;
-    box-shadow: 0px 8px 4px #C9D4DE;
+    box-shadow: 0px 6px 2px #C9D4DE;
     border-radius: 26px;
     margin: auto;
     overflow-y: scroll;
     background: rgba(225, 225, 225, 0.4);
-
 }
+
 
 .newElement::-webkit-scrollbar {
     width: 40px;

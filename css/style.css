@@ -1,11 +1,13 @@
 body {
 
     background-color: #F5F5F5;
-    
+
 }
+
 html {
-    scroll-behavior:smooth;
-  }
+    scroll-behavior: smooth;
+}
+
 header {
     height: 500px;
 
@@ -663,14 +665,55 @@ footer ul {}
     color: white;
     padding: 20px;
 }
-.arrow{
+
+.arrow {
     width: 24px;
+
 }
 
-@keyframes slider {
-    0%, 25%, 100%{left: 0}
-    
-    30%, 55%{left: -100%}
-    
-    60%, 85%{left: -200%}
+.abtMain {
+    list-style: none;
+    margin-top: 77px;
+    margin-bottom: 77px;
+}
+
+.abtTitle {
+    font-family: Arial;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ED1C24;
+    float: left;
+    margin-right: 15px;
+}
+
+.abtTitle2 {
+    font-family: Arial;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FF8E08;
+}
+
+.abtTxt {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #818181;
+    width: 72%;
+    margin: 12px 0px 12px 0px;
+}
+
+.aboutus2 {
+
+    width: 92%;
+    height: 100%;
+    overflow: hidden;
+    background: rgba(235, 235, 235, 0.4);
+    box-shadow: 6px 6px 4px #c9d4de;
+    border-radius: 31px;
+    margin: 0 auto;
+    margin-top: 77px;
+
 }

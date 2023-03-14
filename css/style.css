@@ -1,8 +1,11 @@
 body {
 
     background-color: #F5F5F5;
+    
 }
-
+html {
+    scroll-behavior:smooth;
+  }
 header {
     height: 500px;
 
@@ -501,7 +504,7 @@ h1 {
 
 .newsDtil {
     background: rgba(225, 225, 225, 0.4);
-    box-shadow:6px 6px 2px #C9D4DE;
+    box-shadow: 6px 6px 2px #C9D4DE;
     border-radius: 26px 26px 26px 26px;
     width: 77%;
     height: 185.23px;
@@ -644,17 +647,30 @@ footer ul {}
     margin-top: 50px;
     text-align: center;
 }
-.footicon{
+
+.footicon {
     width: 20px;
     height: 18px;
 }
-.copyRight{
+
+.copyRight {
     font-family: Arial;
-font-style: italic;
-font-weight: 700;
-font-size: 13px;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 13px;
     text-align: center;
     background: #C70209;
     color: white;
     padding: 20px;
+}
+.arrow{
+    width: 24px;
+}
+
+@keyframes slider {
+    0%, 25%, 100%{left: 0}
+    
+    30%, 55%{left: -100%}
+    
+    60%, 85%{left: -200%}
 }

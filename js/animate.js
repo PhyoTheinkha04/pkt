@@ -17,3 +17,19 @@ document.addEventListener("DOMContentLoaded", () => {
   counter("count2", 100, 1550, 2500);
   counter("count3", 0, 7, 3000);
  });
+
+ window.addEventListener('scroll', e => {
+  var el = document.getElementById('jsScroll');
+  if(window.scrollY > 300) {
+    el.classList.add('visible');
+  } else {
+    el.classList.remove('visible');
+  }
+});
+
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+}

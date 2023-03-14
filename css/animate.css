@@ -234,3 +234,68 @@
     }
 
 }
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet');
+
+/* html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+} */
+
+body {
+  margin: 0!important;
+  width: 100%;
+  height: 1000px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.title span{
+  font-family: 'Anton', 'sans-serif';
+  color: white;
+  text-shadow: 0 0 5px #333;
+  font-size: 46px;
+  letter-spacing: 2px;
+  border-bottom: 4px solid rgba(90,92,106,1);
+}
+
+.scroll {
+  cursor: pointer;
+  width: 55px;
+  height: 55px;
+  position: fixed;
+  bottom: 100px;
+  position: fixed;
+  right: -80px;
+  border-radius: 100%;
+  background: #EAEAEA;
+  box-shadow: 5px 5px 4px #C9D4DE;
+  color: #fff;
+  font-size: 44px;
+  font-weight: bold;
+  text-align: center;
+  transition: 300ms;
+}
+
+.scroll i {
+  margin-top: 10px;
+  text-shadow: 0 0 2px #fff;
+}
+
+@keyframes rotate {
+  from {margin-top: 15px}
+  to {margin-top: 5px}
+}
+
+.visible {
+  right: 30px;
+  transition: all 400ms;
+  transform: rotate(360deg)
+}

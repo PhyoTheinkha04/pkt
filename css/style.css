@@ -66,7 +66,13 @@ a {
     color: #ED1C24;
     text-decoration: none;
 }
-
+.active {
+    color: #ED1C24;
+    text-decoration: none;
+}
+.active::before {
+    background-color: #f00d0d;
+}
 .link2 {
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     text-decoration: none;
@@ -87,7 +93,7 @@ a {
     ;
 }
 
-.link1::before {
+.link1::before,.active::before {
     content: '';
     display: block;
     position: absolute;
@@ -105,7 +111,7 @@ a {
     background-color: #000;
 }
 
-.link1:hover::before,
+.link1:active::before,
 .link1:focus::before {
     transform-origin: left top;
     transform: scale(1, 1);
@@ -440,7 +446,7 @@ h2 {
 
 .link3 {
     text-decoration: none;
-    margin-left: 109px;
+    margin-left: 100px;
     font-family: Arial;
     font-style: italic;
     font-weight: 500;

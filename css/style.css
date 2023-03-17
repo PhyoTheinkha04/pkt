@@ -22,7 +22,7 @@ a {
     position: absolute;
     left: 205px;
     width: 86.5%;
-    height: 479px;
+    height: 516px;
     overflow: hidden;
     top: 0%;
 }
@@ -46,7 +46,9 @@ a {
     text-decoration: none;
     transition: color 0.1s, background-color 0.1s;
 }
-
+.margin{
+    margin-bottom: 54px;
+}
 .link1 {
     position: relative;
     display: block;
@@ -108,16 +110,14 @@ a {
 
 .txt1 {
     font-weight: 600;
-    font-size: 36px;
-    margin: 0px;
+    font-size: 48px;
     font-family: Arial;
     font-style: italic;
 }
 
 .txt2 {
     font-weight: 600;
-    font-size: 36px;
-    margin: 0px;
+    font-size: 48px;
     font-family: Arial;
     color: #ED1C24;
     font-style: italic;
@@ -140,7 +140,7 @@ a {
     background: #ED1C24;
     border-radius: 30px;
     text-align: center;
-    top: 120%;
+    top: 100%;
     padding: 0;
     border: none;
     transition: box-shadow 1s;
@@ -194,7 +194,7 @@ a {
     text-align: center;
     font-family: Arial;
     color: #ED1C24;
-    font-style: italic;
+    font-style: normal;
     font-weight: 600;
     font-size: 20px;
 
@@ -291,7 +291,7 @@ a {
 
 .aboutus_elements {
     margin: 0 auto;
-    width: 77%;
+    width: 88%;
     display: flex;
     justify-content: space-between;
 }
@@ -311,12 +311,12 @@ a {
 
 .CB_elements {
     margin: 0 auto;
-    width: 44.5%;
+    width: 57.5%;
     display: flex;
     justify-content: space-between;
     background: rgba(235, 235, 235, 0.4);
     border-radius: 30px;
-    padding: 79px 173px;
+    padding: 52px 216px;
     box-shadow: 6px 6px 4px #C9D4DE;
 }
 
@@ -669,7 +669,7 @@ footer ul {}
 
 .aboutus2 {
 
-    width: 92%;
+    width: 86%;
     height: 100%;
     overflow: hidden;
     background: rgba(235, 235, 235, 0.4);
@@ -707,10 +707,10 @@ footer ul {}
     margin-bottom: 46px;
 }
 
-.form__field {
+.form_field {
     width: 290px;
     border: none;
-    border-bottom: 4px solid #C9D4DE;
+    border-bottom: 3.5px solid #C9D4DE;
     outline: 0;
     padding: 7px 0;
     background: transparent;
@@ -722,7 +722,7 @@ footer ul {}
     margin-bottom: 47px;
 }
 
-.form__field::placeholder {
+.form_field::placeholder {
     font-family: Arial;
     font-style: normal;
     font-weight: 600;
@@ -731,10 +731,10 @@ footer ul {}
 
 }
 
-.form__field2 {
+.form_field2 {
     width: 600px;
     border: none;
-    border-bottom: 4px solid #C9D4DE;
+    border-bottom: 3.5px solid #C9D4DE;
     outline: 0;
     padding: 7px 0;
     background: transparent;
@@ -748,7 +748,7 @@ footer ul {}
     float: left;
 }
 
-.form__field2::placeholder {
+.form_field2::placeholder {
     font-family: Arial;
     font-style: normal;
     font-weight: 600;
@@ -801,6 +801,7 @@ h4 {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
+    margin-bottom: 40px;
 }
 
 .contactbtn {
@@ -819,27 +820,80 @@ h4 {
     color: #ED1C24;
 
 }
+
 .contactbtn span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
-  }
-  
-  .contactbtn span:after {
+}
+
+.contactbtn span:after {
     content: '\00bb';
     position: absolute;
     opacity: 0;
     top: 0;
     right: -20px;
     transition: 0.5s;
-  }
-  
-  .contactbtn:hover span {
+}
+
+.contactbtn:hover span {
     padding-right: 25px;
-  }
-  
-  .contactbtn:hover span:after {
+}
+
+.contactbtn:hover span:after {
     opacity: 1;
     right: 0;
-  }
+}
+
+.contacts {
+    left: 58%;
+    position: absolute;
+    width: 31%;
+}
+
+.contacts a {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    color: #E74C3C;
+    position: absolute;
+}
+
+.contactTitle {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 20px;
+    margin-top: 45px;
+}
+
+.contactTxt2 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    width: 95%;
+    color: #818181;
+    margin-bottom: 20px;
+}
+
+.map {
+    margin: 0 auto;
+    width: 90%;
+    border-radius: 30px;
+    overflow: hidden;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    box-shadow: 5px 5px 4px #C9D4DE;
+}
+
+iframe {
+    width: 100%;
+}

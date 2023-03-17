@@ -18,7 +18,7 @@
 .headerTxt {
     position: absolute;
     left: 256px;
-    top: 241px;
+    top: 212px;
     -webkit-animation-name: bounceInDown;
     animation-name: bounceInDown;
     -webkit-animation-duration: 2s;
@@ -299,3 +299,22 @@ body {
   transition: all 400ms;
   transform: rotate(360deg)
 }
+
+.search {
+    width:40px;
+    box-sizing: border-box;
+    border: 0px solid #ccc;
+    border-radius: 50px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
+ .search:focus {
+    width: 50%;
+  }

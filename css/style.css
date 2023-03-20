@@ -33,7 +33,27 @@ a {
     vertical-align: middle;
     margin-left: 84px;
 }
+.nav_items .nav ul {
+    background: rgb(255, 255, 255);
+  visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+	position: absolute;
+  transition: all 0.5s ease;
+  /* margin-top: 1rem; */
+  display: none;
+  list-style: none;
+}
 
+.nav_items .nav:hover > ul{
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+.nav_items .nav ul li{
+    padding: 10px;
+    border-bottom: 1px solid #ED1C24;
+}
 .link1:hover,
 .link1:focus,
 .link1:active {
@@ -66,16 +86,16 @@ a {
     color: white;
 }
 
-.active {
+.nav_items .active {
     color: #ED1C24;
     text-decoration: none;
 }
 
-.active::before {
+.nav_items .active::before {
     background-color: #f00d0d;
 }
 
-.active::before {
+.nav_items .active::before {
     content: '';
     display: block;
     position: absolute;

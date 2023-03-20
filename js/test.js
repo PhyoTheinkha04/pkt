@@ -1,19 +1,3 @@
-window.addEventListener('scroll', e => {
-    var el = document.getElementById('jsScroll');
-    if(window.scrollY > 300) {
-      el.classList.add('visible');
-    } else {
-      el.classList.remove('visible');
-    }
-  });
-  
-  function scrollToTop() {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    });
-  }
-  
 var menuBtn = document.querySelector('.menu-btn');
 var nav = document.querySelector('nav');
 var lineOne = document.querySelector('nav .menu-btn .line--1');

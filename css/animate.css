@@ -300,21 +300,12 @@ body {
   transform: rotate(360deg)
 }
 
-.search {
-    width:40px;
-    box-sizing: border-box;
-    border: 0px solid #ccc;
-    border-radius: 50px;
-    font-size: 16px;
-    background-color: white;
-    background-image: url('searchicon.png');
-    background-position: 10px 10px; 
-    background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
+.material-icons {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+
   }
   
- .search:focus {
-    width: 50%;
-  }

@@ -1021,5 +1021,11 @@ nav .nav-links .link:hover {
     color: rgba(0, 0, 0, .5);
 }
 .classroom{
-    height: 100vh;
+    height: 100%;
+}
+.classImg{
+    width: 20%;
+}
+.class_container{
+    display: flex;
 }

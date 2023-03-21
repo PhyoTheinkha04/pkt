@@ -55,7 +55,7 @@
             
         </div>
         <div class="headerTxt">
-            <p class="txt2 margin">News</p>
+            <p class="txt2 margin">User</p>
             <button class="loginBtn">
                 <p class="txt3">Login</p>
             </button>
@@ -67,15 +67,14 @@
     <main>
         <!-- new us start -->
         <section class="user_signup">
-            <div class="signupElements">
-                <div class="newsDtils">
-                    <img src="img/news1.jpg" class="newsImg">
-                    <p class="newTxts">
-                        Programmer အလုပ်နဲ့ ပက်သက်ပြီး ပြောရမယ်ဆိုရင် ၂၀၁၁ ခုနှစ် ၆လပိုင်းက တိုကျိုမှာ ဒုတိယ နှစ် ဆန်းမွန်း (ကောလိပ်) တက်နေတဲ့အချိန်မှာ Web Development တွေ အထိက ဝန်ဆောင်မူပေးနေတဲ့ ကုမ္ပဏီ တစ်ခုမှာ အလုပ်သင်စတင် ဝင်ရောက်ခဲ့ပါတယ်။ အတန်းတူ ကျောင်းတူ တက်နေတဲ့ထဲက နိုင်ငံခြားသားထဲမှာ ပထမဦးဆုံး ကုမ္ပဏီမှာ အလုပ်ရရှိခဲ့ပါတယ်။ ရရှိခဲ့တဲ့ အကြောင်းအရင်းကတော့ ITPEC ရဲ့ အခြေခံ IP စာမေးပွဲကို အောင်မြင်ခဲ့တဲ့အတွက် IP သင်ကြားပေးတဲ့ ဆရာရဲ့ မိတ်ဆက်ပေးခြင်းနဲ့ ရရှိခဲ့တာပါ။ အလုပ်သင်စဝင်တော့ တစ်လကို ယန်း ၅သောင်းပေးပါတယ်။ ၁ပတ်ကို ၂ကြိမ် အနည်းဆုံးကုမ္ပဏီကို သွားရတယ်။ ပြီးတော့ လက်ခံတဲ့ အလုပ်တွေကို လုပ်ပြီး ပို့ပေးရတယ်။ ယန်း၅သောင်းဆိုတော့ အပြင်မှာ အချိန်ပိုင်းအလုပ်လုပ်ရင် နာရီ ၅၀ စာ ဝင်ငွေဖြစ်ပါတယ်။ အစပိုင်းတော့ လောဘတွေတက်ပြီး အချိန်ပိုင်း အလုပ်ကိုလည်း မလျော့ပဲ အလုပ်သင်ကလည်းဝင်ငွေ ရရှိတဲ့အဲတွက် သာယာနေခဲ့ပေမယ့် စာကျက်ချိန် မရှိတာရယ် နည်းပညာပိုင်းလေ့လာမူအားနည်းတော့ အလုပ်သင် ကုမ္ပဏီအတွက် အလုပ်ကောင်းကောင်းမလုပ်ပေးနိုင်ခဲ့တဲ့အတွက် နောက်ပိုင်းမှာ နာရီ ၅၀ စာ အချိန်ပိုင်းအလုပ်ကိုလျော့ချပြီး Programming ကို ပိုပြီး အားစိုက်လုပ်ဖြစ်ခဲ့ပါတယ်။
-                    </p>
-                   
-                </div>
-                
+            <h3>Login in Your Account</h3>
+            <div class="signupElements">              
+               
+                <form action="user.html">
+                    <input placeholder="Email address" class="form_field" type="input" name="email">
+                    <input placeholder="Password" class="form_field" type="password">
+                    <button type="submit" class="signupbtn"><span>Login</span> </button>
+                </form>
             </div>
         </section>
         <!-- about us end -->
@@ -143,8 +142,8 @@
     /* width: 92%;
     margin: 0 auto; */
     }
-    .newElements {
-    width: 94%;
+    .user_signup {
+    width: 634px;
     margin: 0 auto;
     /* height: 500px; */
     /* overflow: auto; */
@@ -153,58 +152,43 @@
     /* margin: auto; */
     /* overflow-y: scroll; */
     background: rgba(225, 225, 225, 0.4);
-    padding: 50px 0px;
+    padding: 50px 0px 50px;
 }
-.newsDtils {
-    /* background: rgba(225, 225, 225, 0.4); */
-    /* box-shadow: 6px 6px 2px #C9D4DE; */
-    /* border-radius: 26px 26px 26px 26px; */
-    width: 80%;
-    height: auto;
-    margin: 25px auto;
-    overflow: hidden;
-    /* margin-left: 70px; */
-    /* margin-bottom: 25px; */
-    /* margin-top: 25px; */
+.user_signup h3{
+    font-style: italic;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #ED1C24;
 }
-.newsDtils .newsImg {
-    width: 346.52px;
-    height: auto;
-    filter: drop-shadow(0px 8px 4px #C9D4DE);
-    border-radius: 26px 0px 0px 26px;
-    float: left;
-    object-fit: cover;
+.signupElements {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 50px;
 }
-.newsDtils .newTxts {
-    float: right;
-    width: 60%;
-    color: #353535;
-    /* margin-top: 33px; */
-    /* margin-right: 58px; */
+.form_field {
+    width: 100%;
+    border: none;
+    border-bottom: 3.5px solid #C9D4DE;
+    outline: 0;
+    padding: 7px 0;
+    background: transparent;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: #000000;
+    margin-bottom: 47px;
 }
-.nav_items .nav ul {
-    background: rgb(255, 255, 255);
-  visibility: hidden;
-  opacity: 0;
-  min-width: 5rem;
-	position: absolute;
-  transition: all 0.5s ease;
-  /* margin-top: 1rem; */
-  display: none;
-  list-style: none;
+.signupbtn {
+    width: 111px;
+    margin: 0 auto;
+    height: 49px;
+    display: block;
+    background: #ED1C24;
+    box-shadow: 5px 5px 4px #C9D4DE;
+    border-radius: 30px;
+    color: #ffffff;
+    border: none;
 }
-
-.nav_items .nav:hover > ul{
-  visibility: visible;
-  opacity: 1;
-  display: block;
-}
-.nav_items .nav ul li{
-    padding: 10px;
-    border-bottom: 1px solid #ED1C24;
-}
-/* ul li ul li {
-	clear: both;
-  width: 100%;
-} */
 </style>

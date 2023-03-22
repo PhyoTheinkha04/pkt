@@ -72,30 +72,25 @@
             </div>
         </section> -->
         <!-- about us end -->
-        <section class="mypage">
-            <h3>Hello Poe!</h3>
+        <section class="register-courses">
+            <a href="user.html" class="backimg"><img src="img/back.png"></a>
+            <h3>Register Courses</h3>
             <div class='circle'>
                 <div class="user">              
                     <img src="img/Poe.jpg" class="teacher">
                 </div>
-                <a href="profile.html">
-                    <div class="mypage_icon">
-                        <img src="img/jpicon.png" class="teacher">
-                    </div>
-                    <div class='arc'></div>
-                </a>
-                <a href="purchase_history.html">
-                    <div class="mypage1_icon">
-                        <img src="img/jpicon.png" class="teacher">
-                    </div>
-                    <div class='arc1'></div>
-                </a>
-                <a href="register_courses.html">
+                <a href="">
                     <div class="mypage2_icon">
                         <img src="img/jpicon.png" class="teacher">
                     </div>
                     <div class='arc2'></div>          
                 </a>     
+            </div>
+            <div class="courses-details">
+                <img src="img/online.jpg" class="teacher">
+                <h5>Free Basic Class</h5>  
+                <p>Online</p>
+            </div>
         </section>
         
     </main>
@@ -168,15 +163,20 @@
   border-radius: 50%;
 }
 
-.arc {
+.arc2 {
   overflow: hidden;
   position: absolute;
+  /* make sure top & left values are - the width of the border */
+  /* the bottom right corner is the centre of the parent circle */
   top: -1em;
   right: 50%;
   bottom: 50%;
   left: -1em;
+  /* the transform origin is the bottom right corner */
   transform-origin: 100% 100%;
-  transform: rotate(60deg) skewX(30deg);
+  /* rotate by any angle */
+  /* the skew angle is 90deg - the angle you want for the arc */
+  transform: rotate(145deg) skewX(30deg);
 }
 .mypage_icon {
     width: 60px;
@@ -199,58 +199,17 @@
     top: 101px;
     right: -80px;
 }
-.arc1 {
-  overflow: hidden;
-  position: absolute;
-  top: -1em;
-  right: 50%;
-  bottom: 50%;
-  left: -1em;
-  transform-origin: 100% 100%;
-  transform: rotate(145deg) skewX(30deg);
-}
-.arc1 {
-  overflow: hidden;
-  position: absolute;
-  /* make sure top & left values are - the width of the border */
-  /* the bottom right corner is the centre of the parent circle */
-  top: -1em;
-  right: 50%;
-  bottom: 50%;
-  left: -1em;
-  /* the transform origin is the bottom right corner */
-  transform-origin: 100% 100%;
-  /* rotate by any angle */
-  /* the skew angle is 90deg - the angle you want for the arc */
-  transform: rotate(335deg) skewX(30deg);
-}
-.arc2 {
-  overflow: hidden;
-  position: absolute;
-  /* make sure top & left values are - the width of the border */
-  /* the bottom right corner is the centre of the parent circle */
-  top: -1em;
-  right: 50%;
-  bottom: 50%;
-  left: -1em;
-  /* the transform origin is the bottom right corner */
-  transform-origin: 100% 100%;
-  /* rotate by any angle */
-  /* the skew angle is 90deg - the angle you want for the arc */
-  transform: rotate(145deg) skewX(30deg);
-}
-
-.arc:before,.arc1:before,.arc2:before {
+.arc2:before{
   box-sizing: border-box;
   display: block;
-  border: solid 1em #D9D9D9;
+  border: solid 1em #ED1C24;
   width: 200%;
   height: 200%;
   border-radius: 50%;
   transform: skewX(-30deg);
   content: '';
 }
-    .mypage {
+.register-courses{
     width: 634px;
     margin: 0 auto;
     /* height: 500px; */
@@ -262,12 +221,15 @@
     background: rgba(225, 225, 225, 0.4);
     padding: 35px 0px 50px;
 }
-.mypage h3 {
+.register-courses h3 {
     font-style: italic;
     font-weight: 700;
     font-size: 36px;
     line-height: 44px;
     color: #ED1C24;
+}
+a.backimg {
+    padding-left: 15px;
 }
 .user img {
     width: 265px;
@@ -307,28 +269,20 @@
     color: #000000;
     margin-bottom: 47px;
 }
-.signupbtn {
-    width: 111px;
+.courses-details{
+    width: 34%;
     margin: 0 auto;
-    height: 49px;
-    display: block;
-    background: #ED1C24;
-    box-shadow: 5px 5px 4px #C9D4DE;
-    border-radius: 30px;
-    color: #ffffff;
-    border: none;
 }
-.logoutbtn {
-    width: 111px;
-    margin: 0 auto;
-    height: 49px;
-    display: block;
-    background: #ED1C24;
-    box-shadow: 5px 5px 4px #C9D4DE;
-    border-radius: 30px;
-    color: #ffffff;
-    border: none;
-    margin-top: 15px;
+.courses-details h5 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ED1C24;
+    margin-bottom: 10px;
 }
-
+.courses-details p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+}
 </style>

@@ -454,7 +454,7 @@ h2 {
     padding: 50px;
 }
 
-h5 {
+.founder h5 {
     float: right;
     margin-right: 128px;
     margin-top: -20px;
@@ -465,7 +465,7 @@ h5 {
     color: #828282;
 }
 
-h1 {
+.founder h1 {
     font-family: Arial;
     font-style: normal;
     font-weight: 600;
@@ -584,6 +584,7 @@ footer a {
     color: #353535;
     float: left;
     margin-bottom: 13px;
+    margin-left: 25px;
 }
 
 footer ul {}

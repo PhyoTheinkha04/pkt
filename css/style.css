@@ -35,7 +35,7 @@ a {
 }
 
 .nav_items .nav ul {
-    background: rgb(255, 255, 255);
+    background: rgb(255 255 255 / 0%);
     visibility: hidden;
     opacity: 0;
     min-width: 5rem;
@@ -54,7 +54,21 @@ a {
 
 .nav_items .nav ul li {
     padding: 10px;
-    border-bottom: 1px solid #ED1C24;
+    border-bottom: 3.5px solid #ED1C24;
+    background: #ffffff52;
+    box-shadow: 4px 4px 4px #C9D4DE;
+    border-radius: 5px;
+}
+
+.nav_items .nav ul li a {
+    color: #ED1C24;
+    font-family: Arial;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+
+    color: #ED1C24;
 }
 
 .link1:hover,
@@ -323,7 +337,7 @@ a {
 
 .aboutus {
 
-    width: 86%;
+    width: 76%;
     height: 465px;
     overflow: hidden;
     background: rgba(235, 235, 235, 0.4);
@@ -636,7 +650,7 @@ footer ul {}
 .footicon {
     width: 20px;
     height: 18px;
-    position: absolute;
+
 }
 
 .copyRight {
@@ -906,7 +920,8 @@ h4 {
     font-size: 13px;
     color: #E74C3C;
     margin-left: 25px;
-    /* position: absolute; */
+    position: absolute;
+    width: 314px;
 }
 
 .contactTitle {
@@ -998,7 +1013,7 @@ nav .menu-btn .line.line--1 {
     transform: rotate(0) translateY(0);
 
     background: #ED1C24;
-    
+
 }
 
 nav .menu-btn .line.line--1.line-cross {
@@ -1180,20 +1195,13 @@ nav .nav-links .link:hover {
     outline: none;
 }
 
-span img {
-    width: 30px;
-}
-
-span {
-    position: absolute;
-    margin: 12px;
-}
-.classroom form{
+.classroom form {
     position: relative;
     right: 76px;
     bottom: 13px;
 }
-.searchTitle{
+
+.searchTitle {
     font-family: Arial;
     font-style: normal;
     font-weight: 600;
@@ -1202,7 +1210,8 @@ span {
     margin-bottom: -35px;
     margin-left: 30px;
 }
-.line{
+
+.line {
     width: 300px;
     background: #ED1C24;
     height: 3px;

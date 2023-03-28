@@ -880,7 +880,14 @@ h4 {
     display: block;
     float: right;
 }
-
+input:focus::placeholder {
+    color: transparent;
+    transition: 0.5s;
+  }
+  textarea:focus::placeholder {
+    color: transparent;
+    transition: 0.5s;
+  }
 .contactbtn span {
     cursor: pointer;
     display: inline-block;
@@ -966,8 +973,8 @@ nav {
     position: relative;
     transform: translateX(-300px);
     height: 90%;
-    width: 454px;
-    left: 0px;
+    width: 430px;
+    left: 75px;
     transition: all 800ms cubic-bezier(.8, 0, .33, 1);
 }
 
@@ -983,12 +990,11 @@ nav.nav-open {
     border-radius: 40px 30px 30px 30px;
 }
 
-
-nav .menu-btn {
+.menu-btn {
     position: absolute;
 
-    top: 2%;
-    right: 2%;
+    top: 0%;
+    right: 67%;
     padding: 0;
     width: 30px;
     cursor: pointer;
@@ -999,7 +1005,7 @@ nav .menu-btn {
     padding: 20px;
 }
 
-nav .menu-btn .line {
+.menu-btn .line {
     padding: 0;
     width: 30px;
     background: #000000;
@@ -1008,7 +1014,7 @@ nav .menu-btn .line {
     transition: all 700ms cubic-bezier(.9, 0, .33, 1);
 }
 
-nav .menu-btn .line.line--1 {
+.menu-btn .line.line--1 {
     width: 30px;
     transform: rotate(0) translateY(0);
 
@@ -1016,32 +1022,32 @@ nav .menu-btn .line.line--1 {
 
 }
 
-nav .menu-btn .line.line--1.line-cross {
+ .menu-btn .line.line--1.line-cross {
     width: 40px;
 
     transform: rotate(45deg) translateY(10px);
     background: #ED1C24;
 }
 
-nav .menu-btn .line.line--2 {
+.menu-btn .line.line--2 {
     width: 30px;
     transform: translateX(0);
     background: #ED1C24;
 }
 
-nav .menu-btn .line.line--2.line-fade-out {
+.menu-btn .line.line--2.line-fade-out {
     width: 28px;
     transform: translate(30px);
     opacity: 0;
 }
 
-nav .menu-btn .line.line--3 {
+ .menu-btn .line.line--3 {
     width: 30px;
     transform: rotate(0) translateY(0);
     background: #ED1C24;
 }
 
-nav .menu-btn .line.line--3.line-cross {
+ .menu-btn .line.line--3.line-cross {
     width: 40px;
 
     transform: rotate(-45deg) translateY(-10px);
@@ -1106,7 +1112,7 @@ nav .nav-links .link:hover {
     overflow: hidden;
     margin: auto;
     background: rgba(225, 225, 225, 0.4);
-    box-shadow: 8px 8px 4px #C9D4DE, inset 8px 8px 4px #C9D4DE;
+    box-shadow: 5px 5px 4px #C9D4DE, inset 5px 5px 4px #C9D4DE;
     border-radius: 30px;
     padding: 5% 10%;
 }
@@ -1217,4 +1223,9 @@ nav .nav-links .link:hover {
     height: 3px;
     border: none;
     margin-top: 15px;
+}
+.courseDtil img{
+    width: 100%;
+    border-radius: 30px;
+    float: left;
 }

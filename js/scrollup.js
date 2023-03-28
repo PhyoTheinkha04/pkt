@@ -16,9 +16,9 @@ window.addEventListener('scroll', e => {
   
 var menuBtn = document.querySelector('.menu-btn');
 var nav = document.querySelector('nav');
-var lineOne = document.querySelector('nav .menu-btn .line--1');
-var lineTwo = document.querySelector('nav .menu-btn .line--2');
-var lineThree = document.querySelector('nav .menu-btn .line--3');
+var lineOne = document.querySelector('.menu-btn .line--1');
+var lineTwo = document.querySelector(' .menu-btn .line--2');
+var lineThree = document.querySelector('.menu-btn .line--3');
 var link = document.querySelector('nav .nav-links');
 menuBtn.addEventListener('click', () => {
     nav.classList.toggle('nav-open');

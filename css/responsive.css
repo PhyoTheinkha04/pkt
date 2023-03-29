@@ -1,6 +1,272 @@
+@media only screen and (max-width: 768px){
+* {
+    margin: 0px;
+    padding: 0px;
+}
+}
 @media only screen and (max-width: 768px)
 {
-/* news page */
-
-/* news page */
+    .nav {
+        margin-left: 15px;
+        list-style: none;
+        padding-top: 0px;
+    }
+    .link1 {
+        width: 15%;
+    }
+    .headerTxt {
+        position: absolute;
+        left: 20px !important;
+        top: 90px !important;
+    }
+    .lo_go {
+        margin: auto;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin-top: 0%;
+    }
+    .nav_items {
+        list-style: none;
+        position: initial;
+        left: 10px;
+        width: 100%;
+        height: 516px;
+        overflow: hidden;
+        top: 0%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .head {
+        border-radius: 52% 48% 56% 44% / 62% 50% 50% 38%;
+        position: absolute;
+        z-index: -1;
+        width: 60%;
+        right: -9%;
+        top: -3%;
+        -webkit-animation-name: bounceInDown;
+        animation-name: bounceInDown;
+        -webkit-animation-duration: 2s;
+        animation-duration: 2s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        margin: 0px;
+    }
+    ul.circles {
+        list-style: none;
+    }
+    .txt1,.txt2 {
+        font-size: 16px;
+    }
+    header {
+        height: 161px;
+    }
+    .title1 {
+        font-size: 20px;
+        margin-bottom: 20px;
+        margin-top: 50px;
+    }
+    .element1 {
+        background: rgba(235, 235, 235, 0.5);
+        box-shadow: 6px 6px 4px #c9d4de;
+        border-radius: 24px;
+        width: 45%;
+        height: 238px;
+        float: initial;
+        list-style: none;
+        position: relative;
+        margin: 0px 50px;
+    }
+    li.element1.element2 {
+        float: left;
+        margin: 5px;
+    }
+    li.element1.element3 {
+        float: right;
+        margin: 5px;
+    }
+    .course_OL {
+        height: initial;
+        margin: 0 auto;
+    }
+    .course_elements {
+        width: 100%;
+        margin: auto;
+    }
+    .course {
+        transition: box-shadow 0.7s;
+        margin: 10px auto;
+        position: relative;
+        width: 114px;
+        height: 114px;
+        border-radius: 50%;
+        background: #ED1C24;
+        list-style: none;
+    }
+    .title2 {
+        font-weight: 700;
+        font-size: 14px;
+        text-align: center;
+        font-family: Arial;
+        color: #ED1C24;
+        width: initial;
+        height: initial;
+        margin: 0 auto 30px;
+    }
+    .courseTXT {
+        font-size: 10px;
+        width: initial;
+        height: 64px;
+        margin: 0 auto;
+        position: relative;
+        text-align: center;
+        top: -29px;
+        line-height: 20px;
+    }
+    .aboutus {
+        width: 90%;
+        height: initial;
+    }
+    .aboutus_elements {
+        margin: 0 auto;
+        width: 100%;
+        display: block;
+        justify-content: space-between;
+    }
+    .abtDetail {
+        width: inherit;
+        height: inherit;
+        margin: 0 auto;
+    }
+    .title3 {
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
+    .team {
+        border-radius: 20px;
+        width: 90%;
+        height: 100%;
+        margin: 25px auto;
+        object-fit: contain;
+        text-align: center;
+        display: block;
+    }
+    .element2 {
+        list-style: none;
+        height: initial;
+    }
+    .title3 {
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
+    .CB_elements {
+        margin: 0 auto;
+        width: 90%;
+        display: initial;
+        justify-content: space-between;
+        background: rgba(235, 235, 235, 0.4);
+        border-radius: 30px;
+        padding: 0px;
+        box-shadow: 6px 6px 4px #C9D4DE;
+        height: auto;
+        display: block;
+    }
+    .icon2 {
+        width: 40%;
+        margin: 0px auto;
+        display: block;
+    }
+    .element3 {
+        list-style: none;
+        margin-bottom: 30px;
+    }
+    .founder {
+        border-radius: 30px;
+        width: 90%;
+        margin: auto;
+    }
+    .FounderImg {
+        box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        float: left;
+        margin-right: 42px;
+        width: 30%;
+        ;
+    }
+    .founder {
+        border-radius: 30px;
+        width: 90%;
+        box-shadow: none;
+        border-radius: initial;
+        margin: auto;
+        padding: 50px 0px;
+        background: none;
+    }
+    .FounderImg {
+        box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        float: left;
+        margin-right: 2px;
+        width: 30%;
+    }
+    .founder h1 {
+        font-size: 16px;
+        float: left;
+        margin-bottom: 10px;
+    }
+    .founderDtil {
+        margin-top: 0px;
+        font-size: 12px;
+        text-align: left;
+    }
+    .founder h5 {
+        float: right;
+        margin-right: 30px;
+        margin-top: 0px;
+        font-family: Arial;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        color: #828282;
+    }
+    .founder dd {
+        width: 65%;
+        float: right;
+    }
+    .teacher {
+        border-radius: 10px;
+    }
+    .trainer {
+        padding: 10px;
+    }
+    .trName {
+        margin: 10px 0px;
+    }
+    .newElement {
+        width: 90%;
+    }
+    .newsDtil {
+        width: 95%;
+        height: 185.23px;
+        margin-left: 10px;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+    .newsImg {
+        width: 25%;
+    }
+    .newTxt {
+        float: right;
+        width: 70%;
+        margin-top: 5px;
+        margin-right: 0px;
+        font-size: 12px;
+    }
+    .newElement::-webkit-scrollbar {
+        width: 30px;
+        height: 24px;
+    }
+    .founder h1 span {
+        font-size: 15px;
+    }
 }

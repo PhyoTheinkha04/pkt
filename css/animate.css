@@ -1,3 +1,5 @@
+@media only screen and (min-width: 768px)
+{
 .head {
     border-radius: 52% 48% 56% 44% / 62% 50% 50% 38%;
     position: absolute;
@@ -308,4 +310,4 @@ body {
     'opsz' 48
 
   }
-  
+}

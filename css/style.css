@@ -16,7 +16,24 @@ header {
 a {
     text-decoration: none;
 }
+@media screen and (min-width: 767px) {
+.pc {
+    display: block;
+}
 
+.sp {
+    display: none;
+}
+}
+@media screen and (max-width: 768px) {
+    .pc {
+        display: none;
+    }
+    
+    .sp {
+        display: block;
+    }
+}
 .nav_items {
     list-style: none;
     position: absolute;
@@ -473,17 +490,14 @@ h2 {
     padding: 50px;
 }
 
-.founder h5 {
-    float: right;
-    margin-right: 128px;
-    margin-top: -20px;
+.founder h1 span {
+    margin-top: 7px;
     font-family: Arial;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     color: #828282;
 }
-
 .founder h1 {
     font-family: Arial;
     font-style: normal;
@@ -1228,4 +1242,15 @@ nav .nav-links .link:hover {
     width: 100%;
     border-radius: 30px;
     float: left;
+}
+@media screen and (max-width: 1440px) {
+.nav_items {
+        list-style: none;
+        position: absolute;
+        left: 205px;
+        width: 85.5%;
+        height: 516px;
+        overflow: hidden;
+        top: 0%;
+    }
 }

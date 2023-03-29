@@ -361,4 +361,13 @@
       opacity: .75;
       color: black;
   }
-  
+  @media screen and (max-width: 768px) {
+   .slider {
+        width: 95%;
+        margin: 0 auto;
+    }
+  .slick-slide {
+    margin: 0 10px;
+  }
+
+  }

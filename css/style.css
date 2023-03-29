@@ -724,6 +724,7 @@ footer ul {}
 }
 
 .copyRight {
+    width: 100%;
     font-family: Arial;
     font-style: italic;
     font-weight: 700;
@@ -731,7 +732,7 @@ footer ul {}
     text-align: center;
     background: #C70209;
     color: white;
-    padding: 20px;
+    padding: 20px 0px;
 }
 
 .arrow {

@@ -3,8 +3,8 @@
     position: absolute;
     z-index: -1;
     width: 52%;
-    right: -9%;
-    top: -14%;
+    right: -11%;
+    top: -11%;
 
     -webkit-animation-name: bounceInDown;
     animation-name: bounceInDown;
@@ -14,10 +14,26 @@
     animation-fill-mode: both;
     margin: 0px;
 }
+.head2 {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+    }
+    @keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
 
 .headerTxt {
     position: absolute;
-    left: 256px;
+    left: 228px;
     top: 212px;
     -webkit-animation-name: bounceInDown;
     animation-name: bounceInDown;

@@ -8,11 +8,12 @@ html {
     scroll-behavior: smooth;
 }
 
-header {
+.header {
     height: 500px;
-
 }
-
+.header2{
+    height: 0px;
+}
 a {
     text-decoration: none;
 }
@@ -20,9 +21,18 @@ a {
 .nav_items {
     list-style: none;
     position: absolute;
-    left: 205px;
-    width: 86.5%;
+    left: 145px;
+    width: 89.5%;
     height: 516px;
+    overflow: hidden;
+    top: 0%;
+}
+.nav_items2 {
+    list-style: none;
+    position: absolute;
+    left: 145px;
+    width: 89.5%;
+    height: 200px;
     overflow: hidden;
     top: 0%;
 }
@@ -71,6 +81,42 @@ a {
     color: #ED1C24;
 }
 
+.nav_items2 .nav ul {
+    background: rgb(255 255 255 / 0%);
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    position: absolute;
+    transition: all 0.5s ease;
+    /* margin-top: 1rem; */
+    display: none;
+    list-style: none;
+}
+
+.nav_items2 .nav:hover>ul {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+
+.nav_items2 .nav ul li {
+    padding: 10px;
+    border-bottom: 3.5px solid #ED1C24;
+    background: #ffffff52;
+    box-shadow: 4px 4px 4px #C9D4DE;
+    border-radius: 5px;
+}
+
+.nav_items2 .nav ul li a {
+    color: #ED1C24;
+    font-family: Arial;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+
+    color: #ED1C24;
+}
 .link1:hover,
 .link1:focus,
 .link1:active {
@@ -133,7 +179,10 @@ a {
     background-color: #ffffff;
 }
 
-
+.mypageElements{
+    padding-top: 185px;
+    padding-top: 205px;
+}
 
 
 .lo_go {
@@ -184,7 +233,23 @@ a {
     border: none;
     transition: box-shadow 1s;
 }
+.logoutBtn {
+    
+    width: 111px;
+    height: 49px;
+    background: #ED1C24;
+    border-radius: 30px;
+    text-align: center;
+    top: 100%;
+    padding: 0;
+    border: none;
+    transition: box-shadow 1s;
+    margin: 0px 215px;
+}
+.logoutBtn:hover {
+    box-shadow: 5px 5px 4px #C9D4DE;
 
+}
 .loginBtn:hover {
     box-shadow: 5px 5px 4px #C9D4DE;
 

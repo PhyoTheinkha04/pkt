@@ -21,8 +21,8 @@ a {
 .nav_items {
     list-style: none;
     position: absolute;
-    left: 145px;
-    width: 89.5%;
+    left: 204px;
+    width: 86.5%;
     height: 516px;
     overflow: hidden;
     top: 0%;
@@ -30,9 +30,9 @@ a {
 .nav_items2 {
     list-style: none;
     position: absolute;
-    left: 145px;
-    width: 89.5%;
-    height: 200px;
+    left: 204px;
+    width: 86.5%;
+    height: 516px;
     overflow: hidden;
     top: 0%;
 }

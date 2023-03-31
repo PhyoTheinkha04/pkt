@@ -17,8 +17,8 @@
 .head2 {
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
-    -webkit-animation-duration: 2s;
-    animation-duration: 2s;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
     }

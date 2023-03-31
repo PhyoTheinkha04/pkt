@@ -1091,8 +1091,8 @@ nav {
     position: relative;
     transform: translateX(-300px);
     height: 90%;
-    width: 522px;
-    left: 361px;
+    width: 487px;
+    left: 318px;
     transition: all 800ms cubic-bezier(.8, 0, .33, 1);
 }
 
@@ -1111,7 +1111,7 @@ nav.nav-open {
 .menu-btn {
     position: absolute;
     top: 0%;
-    right: 18%;
+    right: 21%;
     padding: 0;
     width: 30px;
     cursor: pointer;
@@ -1402,6 +1402,7 @@ nav .nav-links .link:hover {
     color: #818181;
 }
 .courseDtil{
-    width: 96%;
+    width: 102%;
+
     margin: 0 auto;
 }

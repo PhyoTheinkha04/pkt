@@ -17,26 +17,28 @@ html {
 a {
     text-decoration: none;
 }
-
+.black{
+    color: black;
+}
 .nav_items {
     list-style: none;
-    left: 204px;
-    width: 69.5%;
+    width: 73.5%;
     height: 516px;
     overflow: hidden;
-    top: 0%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 0 auto;
+    margin-top: 38px;
 }
 .nav_items2 {
     list-style: none;
-    position: absolute;
-    left: 204px;
-    width: 86.5%;
-    height: 516px;
+    width: 73.5%;
+
     overflow: hidden;
-    top: 0%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 38px;
 }
 
 .nav {
@@ -194,8 +196,7 @@ a {
     width: 100.91px;
     height: 100px;
     text-align: center;
-    margin-top: 0%;
-
+    margin-top: -37%;
 }
 
 
@@ -507,7 +508,7 @@ h2 {
 
 .link3 {
     text-decoration: none;
-    margin-left: 93px;
+    float: right;
     font-family: Arial;
     font-style: italic;
     font-weight: 500;
@@ -568,6 +569,7 @@ h2 {
     border-radius: 26px 0px 0px 26px;
     float: left;
     object-fit: cover;
+    margin-right: 20px;
 }
 .newsImg2{
     width: 495.52px;
@@ -589,18 +591,15 @@ h2 {
 
 .newsDtil {
     background: rgba(225, 225, 225, 0.4);
-    box-shadow: 6px 6px 2px #C9D4DE;
+    box-shadow: 5px 5px 2px #C9D4DE;
     border-radius: 26px 26px 26px 26px;
     width: 77%;
     height: 185.23px;
-
-    margin-left: 155px;
-    margin-bottom: 25px;
+    margin: 0 auto;
     margin-top: 25px;
+    overflow: hidden;
 }
 .newTxt {
-    float: right;
-    width: 50%;
     margin-top: 33px;
     margin-right: 58px;
 }

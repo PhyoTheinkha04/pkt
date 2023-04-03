@@ -17,6 +17,24 @@ html {
 a {
     text-decoration: none;
 }
+@media screen and (min-width: 767px) {
+    .pc {
+        display: block;
+    }
+    
+    .sp {
+        display: none;
+    }
+    }
+    @media screen and (max-width: 768px) {
+        .pc {
+            display: none;
+        }
+        
+        .sp {
+            display: block;
+        }
+    }
 .black{
     color: black;
 }
@@ -1290,6 +1308,23 @@ nav .nav-links .link:hover {
     text-decoration: none;
     color: white;
 }
+.courses-details button {
+    background: #ED1C24;
+    box-shadow: 4px 4px 4px #C9D4DE;
+    border-radius: 15px;
+  
+    width: 160px;
+    height: 44px;
+    margin: auto;
+    border: none;
+    display: block;
+
+}
+.courses-details  button a{
+    text-decoration: none;
+    color: white;
+}
+
 .classes2 button a{
     text-decoration: none;
     color: white;

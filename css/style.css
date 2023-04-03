@@ -20,12 +20,14 @@ a {
 
 .nav_items {
     list-style: none;
-    position: absolute;
     left: 204px;
-    width: 86.5%;
+    width: 69.5%;
     height: 516px;
     overflow: hidden;
     top: 0%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 .nav_items2 {
     list-style: none;
@@ -41,9 +43,11 @@ a {
     display: inline-block;
     padding: 20px 0 20px;
     vertical-align: middle;
-    margin-left: 84px;
 }
-
+.container{
+    width: 100%;
+    overflow: hidden;
+}
 .nav_items .nav ul {
     background: rgb(255 255 255 / 0%);
     visibility: hidden;

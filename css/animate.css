@@ -1,12 +1,11 @@
 @media only screen and (min-width: 768px)
 {
 .head {
-    border-radius: 52% 48% 56% 44% / 62% 50% 50% 38%;
     position: absolute;
     z-index: -1;
-    width: 53%;
-    right: -9%;
-    top: -13%;
+    width: 36%;
+    right: 0%;
+    top: 0%;
 
     -webkit-animation-name: bounceInDown;
     animation-name: bounceInDown;

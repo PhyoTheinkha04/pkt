@@ -35,9 +35,9 @@
         </ul>
     </div>
 
-    <header>
+    <header class="header2">
         <div class="container">
-            <ul class="nav_items">
+            <ul class="nav_items2">
                 <li class="nav"><a href="index.html" class="link1">Home</a></li>
                 <li class="nav"><a href="about.html" class="link1">About Us</a></li>
                 <li class="nav"><a href="#" class="link1">Courses</a>
@@ -49,50 +49,39 @@
                 <li class="nav"><a href="index.html" class="link1"><img src="img/pkt.png" class="lo_go"></a></li>
                 <li class="nav"><a href="news.html" class="link1 active">News</a></li>
                 <li class="nav"><a href="contact.html" class="link1 white">Contact Us</a></li>
-                <li class="nav"><a href="faq.html" class="link1 white" >FAQ</a></li>
-                <img src="img/edu1.jpg" class="head">
+                <li class="nav"><a href="faq.html" class="link1 white">FAQ</a></li>
             </ul>
-            
+
         </div>
-        <div class="headerTxt">
-            <p class="txt2 margin">User</p>
-            <button class="loginBtn">
-                <p class="txt3">Login</p>
-            </button>
-        </div>
-    </header>`
+    </header>
 
     <!-- navication end -->
 
     <main>
-        <!-- new us start -->
-        <!-- <section class="mypage">
-            <div class="user">              
-                <img src="img/Poe.jpg" class="teacher">
-            </div>
-        </section> -->
-        <!-- about us end -->
-        <section class="register-courses">
-            <a href="user.html" class="backimg"><img src="img/back.png"></a>
-            <h3>Register Courses</h3>
-            <div class='circle'>
-                <div class="user">              
-                    <img src="img/Poe.jpg" class="teacher">
-                </div>
-                <a href="">
-                    <div class="mypage2_icon">
-                        <img src="img/jpicon.png" class="teacher">
+
+        <section class="mypageElements ">
+            <div class="register-courses head2">
+                <a href="user.html" class="backimg"><img src="img/back.png"></a>
+                <h3>Registered Courses</h3>
+                <div class='circle'>
+                    <div class="user">
+                        <img src="img/Poe.jpg" class="teacher">
                     </div>
-                    <div class='arc2'></div>          
-                </a>     
-            </div>
-            <div class="courses-details">
-                <img src="img/online.jpg" class="teacher">
-                <h5>Free Basic Class</h5>  
-                <p>Online</p>
+                    <a href="">
+                        <div class="mypage2_icon">
+                            <img src="img/class2.png" class="userElements">
+                        </div>
+                        <div class='arc2'></div>
+                    </a>
+                </div>
+                <div class="courses-details">
+                    <img src="img/online.jpg" class="teacher">
+                    <h5>Free Basic Class</h5>
+                    <p>Online</p>
+                </div>
             </div>
         </section>
-        
+
     </main>
 </body>
 <footer>
@@ -150,139 +139,167 @@
     </div>
     <script src="js/common.js"></script>
 </footer>
-			
-	
+
+
 </html>
 <style>
-.circle {
-  position: relative;
-  margin: 7em auto;
-  width: 265px;
-  height: 265px;
-  padding: 15px;
-  border-radius: 50%;
-}
+    .circle {
+        position: relative;
+        margin: 40px 0px 40px 198px;
+        width: 200px;
+        height: 200px;
+        padding: 15px;
+        border-radius: 50%;
+    }
 
-.arc2 {
-  overflow: hidden;
-  position: absolute;
-  /* make sure top & left values are - the width of the border */
-  /* the bottom right corner is the centre of the parent circle */
-  top: -1em;
-  right: 50%;
-  bottom: 50%;
-  left: -1em;
-  /* the transform origin is the bottom right corner */
-  transform-origin: 100% 100%;
-  /* rotate by any angle */
-  /* the skew angle is 90deg - the angle you want for the arc */
-  transform: rotate(145deg) skewX(30deg);
-}
-.mypage_icon {
-    width: 60px;
-    margin: 0 auto;
-    position: absolute;
-    top: -75px;
-    left: 111px;
-}
-.mypage1_icon {
-    width: 60px;
-    margin: 0 auto;
-    position: absolute;
-    top: 101px;
-    left: -80px;
-}
-.mypage2_icon {
-    width: 60px;
-    margin: 0 auto;
-    position: absolute;
-    top: 101px;
-    right: -80px;
-}
-.arc2:before{
-  box-sizing: border-box;
-  display: block;
-  border: solid 1em #ED1C24;
-  width: 200%;
-  height: 200%;
-  border-radius: 50%;
-  transform: skewX(-30deg);
-  content: '';
-}
-.register-courses{
-    width: 634px;
-    margin: 0 auto;
-    /* height: 500px; */
-    /* overflow: auto; */
-    box-shadow: 0px 6px 2px #C9D4DE;
-    border-radius: 26px;
-    /* margin: auto; */
-    /* overflow-y: scroll; */
-    background: rgba(225, 225, 225, 0.4);
-    padding: 35px 0px 50px;
-}
-.register-courses h3 {
-    font-style: italic;
+
+    .arc2 {
+        overflow: hidden;
+        position: absolute;
+        /* make sure top & left values are - the width of the border */
+        /* the bottom right corner is the centre of the parent circle */
+        top: -1em;
+        right: 50%;
+        bottom: 50%;
+        left: -1em;
+        /* the transform origin is the bottom right corner */
+        transform-origin: 100% 100%;
+        /* rotate by any angle */
+        /* the skew angle is 90deg - the angle you want for the arc */
+        transform: rotate(145deg) skewX(30deg);
+    }
+
+    .mypage_icon {
+        width: 60px;
+        margin: 0 auto;
+        position: absolute;
+        top: -75px;
+        left: 111px;
+    }
+
+    .mypage1_icon {
+        width: 60px;
+        margin: 0 auto;
+        position: absolute;
+        top: 101px;
+        left: -80px;
+    }
+
+    .mypage2_icon {
+        width: 40px;
+        margin: 0 auto;
+        position: absolute;
+        top: 81px;
+        right: -80px;
+
+    }
+
+    .arc2:before {
+        box-sizing: border-box;
+        display: block;
+        border: solid 1em #ED1C24;
+        width: 200%;
+        height: 200%;
+        border-radius: 50%;
+        transform: skewX(-30deg);
+        content: '';
+    }
+
+    .register-courses {
+        width: 634px;
+        margin: 0 auto;
+        /* height: 500px; */
+        /* overflow: auto; */
+        border-radius: 26px;
+        /* margin: auto; */
+        /* overflow-y: scroll; */
+        padding: 35px 0px 50px;
+        background: rgba(225, 225, 225, 0.4);
+    box-shadow: 5px 5px 4px #CCD5DF, inset 3px 3px 4px #C9D4DE;
+    }
+
+    .register-courses h3 {
+        font-style: italic;
     font-weight: 700;
     font-size: 36px;
     line-height: 44px;
     color: #ED1C24;
-}
-a.backimg {
-    padding-left: 15px;
-}
-.user img {
-    width: 265px;
-    height: 265px;
-    margin: 0 auto;
-    display: block;
-    /* padding: 50px 0px 50px; */
-    transition: box-shadow 0.7s;
-    /* margin: 15px 84px; */
-    position: relative;
-    border-radius: 50%;
-    list-style: none;
-}
-.user_signup h3{
-    font-style: italic;
+    margin: 0px;
+    }
+
+    a.backimg {
+        padding-left: 15px;
+        float: left;
+    }
+
+    .user img {
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+        display: block;
+        /* padding: 50px 0px 50px; */
+        transition: box-shadow 0.7s;
+        /* margin: 15px 84px; */
+        position: relative;
+        border-radius: 50%;
+        list-style: none;
+    }
+
+    .user_signup h3 {
+        font-style: italic;
     font-weight: 700;
     font-size: 36px;
     line-height: 44px;
     color: #ED1C24;
-}
-.signupElements {
-    width: 70%;
-    margin: 0 auto;
-    padding-top: 50px;
-}
-.form_field {
-    width: 100%;
-    border: none;
-    border-bottom: 3.5px solid #C9D4DE;
-    outline: 0;
-    padding: 7px 0;
-    background: transparent;
-    font-family: Arial;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 15px;
-    color: #000000;
-    margin-bottom: 47px;
-}
-.courses-details{
-    width: 34%;
-    margin: 0 auto;
-}
-.courses-details h5 {
-    text-align: center;
-    font-weight: 400;
-    font-size: 20px;
-    color: #ED1C24;
-    margin-bottom: 10px;
-}
-.courses-details p{
-    text-align: center;
-    font-weight: 400;
-    font-size: 15px;
-}
+    margin: 0px;
+    }
+
+    .signupElements {
+        width: 70%;
+        margin: 0 auto;
+        padding-top: 50px;
+    }
+
+    .form_field {
+        width: 100%;
+        border: none;
+        border-bottom: 3.5px solid #C9D4DE;
+        outline: 0;
+        padding: 7px 0;
+        background: transparent;
+        font-family: Arial;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        color: #000000;
+        margin-bottom: 47px;
+    }
+
+    .courses-details {
+        width: 34%;
+        margin: 0 auto;
+        background: rgba(235, 235, 235, 0.4);
+        border-radius: 30px;
+        box-shadow: 5px 5px 4px #C9D4DE;
+        padding-bottom: 20px;
+    }
+
+    .courses-details h5 {
+        font-family: Arial;
+        font-style: normal;
+        text-align: center;
+        font-weight: 400;
+        font-size: 20px;
+        color: #ED1C24;
+        margin-bottom: 10px;
+    }
+
+    .courses-details p {
+        font-family: Arial;
+        font-style: normal;
+        text-align: center;
+        font-weight: 400;
+        font-size: 15px;
+        color: #353535;
+    }
 </style>

@@ -7,7 +7,7 @@
 @media only screen and (max-width: 768px)
 {
     .header {
-        height: auto;
+        /* height: auto; */
     }
     .nav {
         margin-left: 15px;
@@ -35,12 +35,12 @@
         text-align: center;
         margin-top: 5%;
     }
-    .nav_items {
+    .nav_items,.nav_menuitems {
         list-style: none;
         position: initial;
         left: 10px;
         width: 100%;
-        height: 150px;
+        height: 516px;
         overflow: hidden;
         top: 0%;
         padding: 0px;
@@ -356,12 +356,18 @@ nav {
     left: 361px;
     transition: all 0ms cubic-bezier(.8, 0, .33, 1);
 }
-.nav_items .active::before {
+.nav_menuitems .active::before {
     bottom: -10px;
-    width: 50%;
+    width: 100%;
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    height: 3px;
+    background-color: #ED1C24;
 }
 nav.nav-open {
-    transform: translateX(-100px);
+    /* transform: translateX(-100px); */
     border-radius: 30px;
     background: rgba(232, 232, 232, 0.68);
     /* background: rgb(234 234 234 / 50%); */
@@ -369,11 +375,14 @@ nav.nav-open {
     backdrop-filter: blur(0px);
     border-radius: 0px;
     position: absolute;
-    top: -165px;
+    top: -100px;
     bottom: 0px;
-    right: 0px;
+    right: -38px;
+    left: initial;
+    width: 120px;
+    text-align: center;
 }
-    nav .nav-links {
+    nav .nav-menulinks {
         position: absolute;
         left: 0;
         top: 0;
@@ -388,16 +397,24 @@ nav.nav-open {
         transition: all -900ms cubic-bezier(.9, 0, .33, 1);
     }
     
-    nav .nav-links.fade-in {
+    nav .nav-menulinks.fade-in {
         opacity: 1;
         transform: translateX(-1px);
+    }
+    nav .nav-menulinks.fade-in .nav:first-child{
+        padding-top: 45px;
+    }
+    nav .nav-menulinks.fade-in .nav{
+        margin-left: 0px;
     }
     .loginBtn {
         width: 90px;
         height: 35px;
-        top: 80%;
+        top: 70%;
+        position: absolute;
+        right: 15px;
     }
-    .menu-btn {
+    .menu-btn,.menu-btn1 {
         width: 26px;
         position: absolute;
         top: -15%;
@@ -405,32 +422,32 @@ nav.nav-open {
         padding: 5px;
         box-shadow: 0px 0px 0px #C9D4DE;
     }
-    .menu-btn .line.line--1 {
+    .menu-btn .line.line--1,.menu-btn1 .line.line--1 {
         width: 15px;
         transform: rotate(0) translateY(0);
         background: #ED1C24;
     }
-    .menu-btn .line.line--2 {
+    .menu-btn .line.line--2,.menu-btn1 .line.line--2 {
         width: 15px;
         transform: translateX(0);
         background: #ED1C24;
     }
-    .menu-btn .line.line--3 {
+    .menu-btn .line.line--3,.menu-btn1 .line.line--3 {
         width: 15px;
         transform: rotate(0) translateY(0);
         background: #ED1C24;
     }
-    .menu-btn .line.line--1.line-cross {
+    .menu-btn .line.line--1.line-cross,.menu-btn1 .line.line--1.line-cross {
         width: 30px;
         transform: rotate(45deg) translateY(10px);
         background: #ED1C24;
     }
-    .menu-btn .line.line--3.line-cross {
+    .menu-btn .line.line--3.line-cross,.menu-btn1 .line.line--3.line-cross {
         width: 30px;
         transform: rotate(-45deg) translateY(-10px);
         background: #ED1C24;
     }
-    .menu-btn .line {
+    .menu-btn .line,.menu-btn1 .line {
         padding: 0px;
         width: 30px;
         background: #000000;

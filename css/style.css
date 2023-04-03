@@ -892,7 +892,7 @@ ul.input_elements2 {
     width: 48%;
     float: right;
     margin-left: 10px;
-    display: block;
+    /* display: block; */
 }
 
 .form_field {

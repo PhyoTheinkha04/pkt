@@ -1,3 +1,5 @@
+@media only screen and (min-width: 768px)
+{
 .head {
     position: absolute;
     z-index: -1;
@@ -323,4 +325,4 @@ body {
     'opsz' 48
 
   }
-  
+}

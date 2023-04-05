@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
     <link rel="icon" type="image/x-icon" href="img/pkt.png" />
   </head>
 
@@ -33,30 +34,88 @@
 
     <header class="header">
       <div class="container">
-        <ul class="nav_items">
-          <li class="nav"><a href="index.html" class="link1">Home</a></li>
-          <li class="nav"><a href="about.html" class="link1">About Us</a></li>
-          <li class="nav">
-            <a href="#" class="link1">Courses</a>
-            <ul class="dropdown">
-              <li><a href="local.html">Local Classroom</a></li>
-              <li><a href="online.html">Online Class</a></li>
-            </ul>
-          </li>
-          <li class="nav">
-            <a href="index.html" class="link1"
-              ><img src="img/pkt.png" class="lo_go"
-            /></a>
-          </li>
-          <li class="nav"><a href="news.html" class="link1 active">News</a></li>
-          <li class="nav">
-            <a href="contact.html" class="link1 white">Contact Us</a>
-          </li>
-          <li class="nav"><a href="faq.html" class="link1 white">FAQ</a></li>
-          <img src="img/edu1.png" class="head" />
-        </ul>
+        <div class="pc">
+          <ul class="nav_items">
+            <li class="nav"><a href="index.html" class="link1">Home</a></li>
+            <li class="nav"><a href="about.html" class="link1">About Us</a></li>
+            <li class="nav">
+              <a href="#" class="link1">Courses</a>
+              <ul class="dropdown">
+                <li><a href="local.html">Local Classroom</a></li>
+                <li><a href="online.html">Online Class</a></li>
+              </ul>
+            </li>
+            <li class="nav">
+              <a href="index.html" class="link1"
+                ><img src="img/pkt.png" class="lo_go"
+              /></a>
+            </li>
+            <li class="nav">
+              <a href="news.html" class="link1 active">News</a>
+            </li>
+            <li class="nav">
+              <a href="contact.html" class="link1 white">Contact Us</a>
+            </li>
+            <li class="nav"><a href="faq.html" class="link1 white">FAQ</a></li>
+            <img src="img/edu1.png" class="head" />
+          </ul>
+        </div>
+        <div class="sp">
+          <ul class="nav_items">
+            <li class="nav">
+              <a href="index.html" class="logo"
+                ><img src="img/pkt.png" class="lo_go"
+              /></a>
+              <div class="headerTxt sp">
+                <p class="txt2 margin">News</p>
+              </div>
+            </li>
+            <img src="img/edu1.png" class="head" />
+            <div class="classnav">
+              <div class="menu-btn1">
+                <div class="line line--1"></div>
+                <div class="line line--2"></div>
+                <div class="line line--3"></div>
+              </div>
+              <nav>
+                <div class="nav-menulinks">
+                  <ul class="nav_menuitems sp">
+                    <li class="nav">
+                      <a href="index.html" class="link1 active">Home</a>
+                    </li>
+                    <li class="nav">
+                      <a href="about.html" class="link1">About Us</a>
+                    </li>
+                    <li class="nav">
+                      <a href="#" class="link1">Courses</a>
+                      <ul class="dropdown">
+                        <li><a href="local.html">Local Classroom</a></li>
+                        <li><a href="online.html">Online Class</a></li>
+                      </ul>
+                    </li>
+
+                    <li class="nav">
+                      <a href="news.html" class="link1">News</a>
+                    </li>
+                    <li class="nav">
+                      <a href="contact.html" class="link1 white">Contact Us</a>
+                    </li>
+                    <li class="nav">
+                      <a href="faq.html" class="link1 white">FAQ</a>
+                    </li>
+                    <li class="nav">
+                      <button class="loginBtn">
+                        <a href="login.html" class="txt3">Login</a>
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </ul>
+        </div>
       </div>
-      <div class="headerTxt">
+      <div class="headerTxt pc">
         <p class="txt2 margin">News</p>
         <button class="loginBtn">
           <a href="login.html" class="txt3">Login</a>
@@ -71,88 +130,86 @@
       <!-- new us start -->
       <section class="news">
         <div class="newElement2">
-            <div class="newsDtil">
-                <img src="img/news1.jpg" class="newsImg">
-                <p class="newTxt">
-                    ကိုယ်အပါအ၀င် မြန်မာလူငယ်တော်တော်များများဟာ ဘ၀ပြောင်းလဲဖို့အတွက် နိုင်ငံခြားကို အလုပ်သွားလုပ်ဖို့
-                    ကြိုးစားကြရပါတယ်။ ဘ၀ကြီးက လုံး၀မပြောင်းသွားရင်တောင် မြန်မာပြည်မှာ ရင်းနှီးစားသောက်ဖို့အတွက်
-                </p>
-                <a href="newsDtil.html" class="link4">read more</a>
-            </div>
-            <div class="newsDtil">
-                <img src="img/news2.jpg" class="newsImg">
-                <p class="newTxt">
-
-                    ၂နှစ် ရင်းနှီး မြှပ်နှံရုံဖြင့် ဂျပန်နိုင်ငံ အသိအမှတ်ပြုနည်းပညာရှင် တစ်ယောက် အဖြစ် သို့
-                    ပြောင်းလဲ နိုင်မည့် အခွင့်အရေး တစ်ခုအဖြစ် pkt education မှာ အောက်ပါ သင်တန်းအား
-                    မိတ်ဆက်လိုက်ပါတယ်။
-                    သင်ကြားမည့် အကြောင်းအရာများ
-                </p>
-                <a href="newsDtil.html" class="link4">read more</a>
-            </div>
-            <div class="newsDtil">
-                <img src="img/news3.jpg" class="newsImg">
-                <p class="newTxt">
-                    JLPT ရဲ့ အရှည်ကောက်က Japanese Language Proficiency Test လို့ခေါ်ပြီး နိုင်ငံတကာ
-                    အသိအမှတ်ပြုုဂျပန်စာ အရည်အချင်းစစ် စာမေးပွဲဖြစ်ပါတယ်။
-                    နိုင်ငံပေါင်း ၈၆ နိုင်ငံ ၊ မြို့ပေါင်း ၂၉၆ မြို့မှာ တစ်ပြိုင်တည်း ကျင်းပတဲ့ စာမေးပွဲ ဖြစ်ပါတယ်။
-                </p>
-                <a href="#" class="link4">read more</a>
-            </div>
-            <div class="newsDtil">
-                <img src="img/news4.jpg" class="newsImg">
-                <p class="newTxt">
-
-                    ၂နှစ် ရင်းနှီး မြှပ်နှံရုံဖြင့် ဂျပန်နိုင်ငံ အသိအမှတ်ပြုနည်းပညာရှင် တစ်ယောက် အဖြစ် သို့
-                    ပြောင်းလဲ နိုင်မည့် အခွင့်အရေး တစ်ခုအဖြစ် pkt education မှာ အောက်ပါ သင်တန်းအား
-                    မိတ်ဆက်လိုက်ပါတယ်။
-                    ကွန်ပျူတာ အခြေခံ ...
-
-                </p>
-                <a href="#" class="link4">read more</a>
-            </div>
-            <div class="newsDtil">
-              <img src="img/news1.jpg" class="newsImg">
-              <p class="newTxt">
-                  ကိုယ်အပါအ၀င် မြန်မာလူငယ်တော်တော်များများဟာ ဘ၀ပြောင်းလဲဖို့အတွက် နိုင်ငံခြားကို အလုပ်သွားလုပ်ဖို့
-                  ကြိုးစားကြရပါတယ်။ ဘ၀ကြီးက လုံး၀မပြောင်းသွားရင်တောင် မြန်မာပြည်မှာ ရင်းနှီးစားသောက်ဖို့အတွက်
-              </p>
-              <a href="#" class="link4">read more</a>
+          <div class="newsDtil">
+            <img src="img/news1.jpg" class="newsImg" />
+            <p class="newTxt">
+              ကိုယ်အပါအ၀င် မြန်မာလူငယ်တော်တော်များများဟာ ဘ၀ပြောင်းလဲဖို့အတွက်
+              နိုင်ငံခြားကို အလုပ်သွားလုပ်ဖို့ ကြိုးစားကြရပါတယ်။ ဘ၀ကြီးက
+              လုံး၀မပြောင်းသွားရင်တောင် မြန်မာပြည်မှာ ရင်းနှီးစားသောက်ဖို့အတွက်
+            </p>
+            <a href="newsDtil.html" class="link4">read more</a>
           </div>
           <div class="newsDtil">
-              <img src="img/news2.jpg" class="newsImg">
-              <p class="newTxt">
-
-                  ၂နှစ် ရင်းနှီး မြှပ်နှံရုံဖြင့် ဂျပန်နိုင်ငံ အသိအမှတ်ပြုနည်းပညာရှင် တစ်ယောက် အဖြစ် သို့
-                  ပြောင်းလဲ နိုင်မည့် အခွင့်အရေး တစ်ခုအဖြစ် pkt education မှာ အောက်ပါ သင်တန်းအား
-                  မိတ်ဆက်လိုက်ပါတယ်။
-                  သင်ကြားမည့် အကြောင်းအရာများ
-              </p>
-              <a href="#" class="link4">read more</a>
+            <img src="img/news2.jpg" class="newsImg" />
+            <p class="newTxt">
+              ၂နှစ် ရင်းနှီး မြှပ်နှံရုံဖြင့် ဂျပန်နိုင်ငံ
+              အသိအမှတ်ပြုနည်းပညာရှင် တစ်ယောက် အဖြစ် သို့ ပြောင်းလဲ နိုင်မည့်
+              အခွင့်အရေး တစ်ခုအဖြစ် pkt education မှာ အောက်ပါ သင်တန်းအား
+              မိတ်ဆက်လိုက်ပါတယ်။ သင်ကြားမည့် အကြောင်းအရာများ
+            </p>
+            <a href="newsDtil.html" class="link4">read more</a>
           </div>
           <div class="newsDtil">
-              <img src="img/news3.jpg" class="newsImg">
-              <p class="newTxt">
-                  JLPT ရဲ့ အရှည်ကောက်က Japanese Language Proficiency Test လို့ခေါ်ပြီး နိုင်ငံတကာ
-                  အသိအမှတ်ပြုုဂျပန်စာ အရည်အချင်းစစ် စာမေးပွဲဖြစ်ပါတယ်။
-                  နိုင်ငံပေါင်း ၈၆ နိုင်ငံ ၊ မြို့ပေါင်း ၂၉၆ မြို့မှာ တစ်ပြိုင်တည်း ကျင်းပတဲ့ စာမေးပွဲ ဖြစ်ပါတယ်။
-              </p>
-              <a href="#" class="link4">read more</a>
+            <img src="img/news3.jpg" class="newsImg" />
+            <p class="newTxt">
+              JLPT ရဲ့ အရှည်ကောက်က Japanese Language Proficiency Test
+              လို့ခေါ်ပြီး နိုင်ငံတကာ အသိအမှတ်ပြုုဂျပန်စာ အရည်အချင်းစစ်
+              စာမေးပွဲဖြစ်ပါတယ်။ နိုင်ငံပေါင်း ၈၆ နိုင်ငံ ၊ မြို့ပေါင်း ၂၉၆
+              မြို့မှာ တစ်ပြိုင်တည်း ကျင်းပတဲ့ စာမေးပွဲ ဖြစ်ပါတယ်။
+            </p>
+            <a href="#" class="link4">read more</a>
           </div>
           <div class="newsDtil">
-              <img src="img/news4.jpg" class="newsImg">
-              <p class="newTxt">
-
-                  ၂နှစ် ရင်းနှီး မြှပ်နှံရုံဖြင့် ဂျပန်နိုင်ငံ အသိအမှတ်ပြုနည်းပညာရှင် တစ်ယောက် အဖြစ် သို့
-                  ပြောင်းလဲ နိုင်မည့် အခွင့်အရေး တစ်ခုအဖြစ် pkt education မှာ အောက်ပါ သင်တန်းအား
-                  မိတ်ဆက်လိုက်ပါတယ်။
-                  ကွန်ပျူတာ အခြေခံ ...
-
-              </p>
-              <a href="#" class="link4">read more</a>
+            <img src="img/news4.jpg" class="newsImg" />
+            <p class="newTxt">
+              ၂နှစ် ရင်းနှီး မြှပ်နှံရုံဖြင့် ဂျပန်နိုင်ငံ
+              အသိအမှတ်ပြုနည်းပညာရှင် တစ်ယောက် အဖြစ် သို့ ပြောင်းလဲ နိုင်မည့်
+              အခွင့်အရေး တစ်ခုအဖြစ် pkt education မှာ အောက်ပါ သင်တန်းအား
+              မိတ်ဆက်လိုက်ပါတယ်။ ကွန်ပျူတာ အခြေခံ ...
+            </p>
+            <a href="#" class="link4">read more</a>
+          </div>
+          <div class="newsDtil">
+            <img src="img/news1.jpg" class="newsImg" />
+            <p class="newTxt">
+              ကိုယ်အပါအ၀င် မြန်မာလူငယ်တော်တော်များများဟာ ဘ၀ပြောင်းလဲဖို့အတွက်
+              နိုင်ငံခြားကို အလုပ်သွားလုပ်ဖို့ ကြိုးစားကြရပါတယ်။ ဘ၀ကြီးက
+              လုံး၀မပြောင်းသွားရင်တောင် မြန်မာပြည်မှာ ရင်းနှီးစားသောက်ဖို့အတွက်
+            </p>
+            <a href="#" class="link4">read more</a>
+          </div>
+          <div class="newsDtil">
+            <img src="img/news2.jpg" class="newsImg" />
+            <p class="newTxt">
+              ၂နှစ် ရင်းနှီး မြှပ်နှံရုံဖြင့် ဂျပန်နိုင်ငံ
+              အသိအမှတ်ပြုနည်းပညာရှင် တစ်ယောက် အဖြစ် သို့ ပြောင်းလဲ နိုင်မည့်
+              အခွင့်အရေး တစ်ခုအဖြစ် pkt education မှာ အောက်ပါ သင်တန်းအား
+              မိတ်ဆက်လိုက်ပါတယ်။ သင်ကြားမည့် အကြောင်းအရာများ
+            </p>
+            <a href="#" class="link4">read more</a>
+          </div>
+          <div class="newsDtil">
+            <img src="img/news3.jpg" class="newsImg" />
+            <p class="newTxt">
+              JLPT ရဲ့ အရှည်ကောက်က Japanese Language Proficiency Test
+              လို့ခေါ်ပြီး နိုင်ငံတကာ အသိအမှတ်ပြုုဂျပန်စာ အရည်အချင်းစစ်
+              စာမေးပွဲဖြစ်ပါတယ်။ နိုင်ငံပေါင်း ၈၆ နိုင်ငံ ၊ မြို့ပေါင်း ၂၉၆
+              မြို့မှာ တစ်ပြိုင်တည်း ကျင်းပတဲ့ စာမေးပွဲ ဖြစ်ပါတယ်။
+            </p>
+            <a href="#" class="link4">read more</a>
+          </div>
+          <div class="newsDtil">
+            <img src="img/news4.jpg" class="newsImg" />
+            <p class="newTxt">
+              ၂နှစ် ရင်းနှီး မြှပ်နှံရုံဖြင့် ဂျပန်နိုင်ငံ
+              အသိအမှတ်ပြုနည်းပညာရှင် တစ်ယောက် အဖြစ် သို့ ပြောင်းလဲ နိုင်မည့်
+              အခွင့်အရေး တစ်ခုအဖြစ် pkt education မှာ အောက်ပါ သင်တန်းအား
+              မိတ်ဆက်လိုက်ပါတယ်။ ကွန်ပျူတာ အခြေခံ ...
+            </p>
+            <a href="#" class="link4">read more</a>
           </div>
         </div>
-    </section>
+      </section>
       <!-- about us end -->
     </main>
   </body>
@@ -167,7 +224,7 @@
         </p>
       </div>
 
-      <ul>
+      <ul class="info">
         <p class="title6">Information For</p>
         <li class="footLink1">
           <a href="">Home</a>
@@ -182,7 +239,7 @@
           <a href="">Contacts</a>
         </li>
       </ul>
-      <ul>
+      <ul class="address">
         <p class="title7">Address</p>
         <li class="footLink3">
           <img src="img/phone.png" class="footicon" />
@@ -210,4 +267,48 @@
     </div>
     <script src="js/common.js"></script>
   </footer>
+  <link href="css/slick.css" rel="stylesheet" />
+  <link href="css/slick.min.css" rel="stylesheet" />
+  <script src="js/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/common.js"></script>
+
+  <style>
+    @media only screen and (max-width: 768px) {
+      /* News */
+      .newElement2 {
+        width: 90%;
+        height: auto;
+        overflow: initial;
+        box-shadow: none;
+        border-radius: 26px;
+        margin: 50px auto 0px;
+        overflow-y: initial;
+        background: no-repeat;
+    }
+      .newsDtil {
+        width: 95%;
+        height: auto;
+        margin-left: 10px;
+        margin-bottom: 30px;
+        margin-top: 25px;
+     }
+     .newTxt {
+        float: none;
+        width: 90%;
+        font-size: 12px;
+        margin: 10px auto;
+    }
+    .newsImg {
+        float: none;
+        width: 100%;
+      }
+    .link4 {
+      text-decoration: none;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      }
+  }
+   /* News */
+  </style>
 </html>

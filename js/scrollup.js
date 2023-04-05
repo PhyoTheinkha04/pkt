@@ -14,14 +14,14 @@ window.addEventListener('scroll', e => {
     });
   }
   
-var menuBtn = document.querySelector('.menu-btn');
-var nav = document.querySelector('nav');
+var menuBtn = document.querySelector('.menu-btn');``
+var nav1 = document.querySelector('.nav-cat');
 var lineOne = document.querySelector('.menu-btn .line--1');
 var lineTwo = document.querySelector(' .menu-btn .line--2');
 var lineThree = document.querySelector('.menu-btn .line--3');
-var link = document.querySelector('nav .nav-links');
+var link = document.querySelector('.nav-cat .nav-links');
 menuBtn.addEventListener('click', () => {
-    nav.classList.toggle('nav-open');
+    nav1.classList.toggle('nav-opens');
     lineOne.classList.toggle('line-cross');
     lineTwo.classList.toggle('line-fade-out');
     lineThree.classList.toggle('line-cross');

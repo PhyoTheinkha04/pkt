@@ -64,6 +64,19 @@
         margin: 0px;
     }
 
+    .nav_items2,
+    .nav_menuitems {
+        list-style: none;
+        /* position: initial; */
+        left: 0px;
+        width: 100%;
+        height: 516px;
+        overflow: hidden;
+        top: 0%;
+        padding: 0px;
+        margin: 0px;
+    }
+
     .head {
         position: absolute;
         z-index: -1;
@@ -392,7 +405,6 @@
     }
 
     .copyRight {
-        margin-top: 50px;
         font-size: 10px;
         padding: 20px 0px;
     }
@@ -404,9 +416,10 @@
     }
 
     .footer {
-        width: 90%;
-        margin: 0 auto;
+        width: 93%;
         display: block;
+        padding: 39px 13px 126px 14.5px;
+        background: rgba(225, 225, 225, 0.4);
     }
 
     .title7 {
@@ -421,6 +434,7 @@
         right: 0;
         z-index: 1;
     }
+
     .classroom .classnav {
         width: 100%;
         height: 450px;
@@ -428,19 +442,21 @@
         right: 0;
         z-index: 1;
     }
-.line {
-    width: 230px;
-    background: #ED1C24;
-    height: 3px;
-    border: none;
-    margin-top: 15px;
-}
+
+    .line {
+        width: 230px;
+        background: #ED1C24;
+        height: 3px;
+        border: none;
+        margin-top: 15px;
+    }
+
     nav {
         overflow: hidden;
         position: relative;
         transform: translateX(-300px);
         height: 90%;
-        /* width: 170px; */
+        width: 170px;
         left: 361px;
         transition: all 0ms cubic-bezier(.8, 0, .33, 1);
     }
@@ -466,7 +482,7 @@
         background-color: #ED1C24;
     }
 
-   .sp .nav-open {
+    .sp .nav-open {
         /* transform: translateX(-100px); */
         border-radius: 30px;
         background: rgba(232, 232, 232, 0.68);
@@ -768,15 +784,18 @@
         backdrop-filter: blur(6px);
         border-radius: 20px;
     }
+
     .courseDtil {
         width: 71%;
         margin: 0 auto;
     }
+
     .courseDtil img {
         width: 100%;
         border-radius: 30px;
         /* float: left; */
     }
+
     .classdtil {
         font-family: Arial;
         font-style: normal;
@@ -784,6 +803,7 @@
         font-size: 14px;
         color: #818181;
     }
+
     .title8 {
         font-family: Arial;
         font-style: italic;
@@ -793,5 +813,88 @@
         margin: 0 auto;
         width: 52%;
     }
+
+    .relatedClass {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    .material-icons {
+        font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 48
+    }
+
+
+    .scroll {
+        cursor: pointer;
+        width: 55px;
+        height: 55px;
+        position: fixed;
+        bottom: 100px;
+        position: fixed;
+        right: -80px;
+        border-radius: 100%;
+        background: #EAEAEA;
+        box-shadow: 5px 5px 4px #C9D4DE;
+        color: #fff;
+        font-size: 44px;
+        font-weight: bold;
+        text-align: center;
+        transition: 300ms;
+    }
+
+    .scroll i {
+        margin-top: 10px;
+        text-shadow: 0 0 2px #fff;
+    }
+
+    @keyframes rotate {
+        from {
+            margin-top: 15px
+        }
+
+        to {
+            margin-top: 5px
+        }
+    }
+
+    .visible {
+        right: 30px;
+        transition: all 400ms;
+        transform: rotate(360deg);
+
+        bottom: 263px;
+
+    }
+
+    .material-icons {
+        font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 48
+    }
+
+    .classes2 {
+        /* float: left; */
+        background: rgba(235, 235, 235, 0.4);
+        border-radius: 30px;
+        box-shadow: 4px 4px 4px #C9D4DE;
+        width: 100%;
+        list-style: none;
+        margin-bottom: 50px;
+        padding-bottom: 20px;
+    }
+
     /* course */
+
+    /* purchase */
+
+    /* purchase */
 }

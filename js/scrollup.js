@@ -14,7 +14,7 @@ window.addEventListener('scroll', e => {
     });
   }
   
-var menuBtn = document.querySelector('.menu-btn');
+var menuBtn = document.querySelector('.menu-btn');``
 var nav1 = document.querySelector('.nav-cat');
 var lineOne = document.querySelector('.menu-btn .line--1');
 var lineTwo = document.querySelector(' .menu-btn .line--2');

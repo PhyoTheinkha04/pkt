@@ -11,9 +11,7 @@ html {
 .header {
     /* height: 500px; */
 }
-.header2{
-    height: 0px;
-}
+
 a {
     text-decoration: none;
 }
@@ -66,7 +64,7 @@ a {
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
-    margin-top: 38px;
+    padding-top: 54px;
 }
 
 .nav {
@@ -211,8 +209,7 @@ a {
 }
 
 .mypageElements{
-    padding-top: 185px;
-    padding-top: 205px;
+    padding-top: 50px;
 }
 
 

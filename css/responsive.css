@@ -931,4 +931,42 @@
     /* purchase */
 
     /* purchase */
+    .abtTitle {
+        font-family: Arial;
+        font-style: italic;
+        font-weight: 700;
+        font-size: 14px;
+        color: #ed1c24;
+        float: left;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .abtTitle2 {
+        font-family: Arial;
+        font-style: italic;
+        font-weight: 700;
+        font-size: 14px;
+        color: #ff8e08;
+        margin: 0 auto;
+    }
+    .abtTxt {
+        font-family: Arial;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        color: #818181;
+        width: 83%;
+        /* margin: 18px 0px 16px 0px; */
+        margin: 0 auto;
+    }
+    .aboutus2 {
+        width: 86%;
+        height: 100%;
+        overflow: hidden;
+        /* background: rgba(235, 235, 235, 0.4); */
+        /* box-shadow: 6px 6px 4px #c9d4de; */
+        border-radius: 31px;
+        margin: 0 auto;
+        margin-top: 77px;
+    }
 }

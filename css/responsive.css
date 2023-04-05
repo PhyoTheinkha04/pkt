@@ -186,19 +186,6 @@
         top: -17px;
         line-height: 20px;
     }
-
-    .aboutus {
-        width: 90%;
-        height: initial;
-    }
-
-    .aboutus_elements {
-        margin: 0 auto;
-        width: 100%;
-        display: block;
-        justify-content: space-between;
-    }
-
     .abtDetail {
         width: inherit;
         height: inherit;
@@ -931,6 +918,8 @@
     /* purchase */
 
     /* purchase */
+
+    /* about us */
     .abtTitle {
         font-family: Arial;
         font-style: italic;
@@ -959,14 +948,28 @@
         /* margin: 18px 0px 16px 0px; */
         margin: 0 auto;
     }
+    .aboutus {
+        width: 90%;
+        height: initial;
+    }
+
+    .aboutus_elements {
+        margin: 0 auto;
+        width: 100%;
+        display: block;
+        justify-content: space-between;
+    }
     .aboutus2 {
         width: 86%;
         height: 100%;
         overflow: hidden;
         /* background: rgba(235, 235, 235, 0.4); */
         /* box-shadow: 6px 6px 4px #c9d4de; */
+        background: no-repeat;
+        box-shadow: none;
         border-radius: 31px;
         margin: 0 auto;
         margin-top: 77px;
     }
+    /* about us */
 }

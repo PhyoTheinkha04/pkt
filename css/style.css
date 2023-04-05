@@ -1222,6 +1222,7 @@ nav.nav-open {
   box-shadow: 4px 4px 4px #c9d4de;
   border-radius: 30px;
   padding: 20px;
+}
 nav,.nav-cat {
     overflow: hidden;
     position: relative;

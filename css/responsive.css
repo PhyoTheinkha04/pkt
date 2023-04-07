@@ -16,7 +16,7 @@
         padding-top: 0px;
         display: block;
     }
-    .nav_items2 .nav ul {
+    .nav_items .nav ul {
         background: rgb(218 218 218);
         visibility: hidden;
         opacity: 0;

@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="icon" type="image/x-icon" href="img/pkt.png">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/user.css">
 </head>
 
 <body>
@@ -53,7 +54,7 @@
                     <li class="nav"><a href="contact.html" class="link1 black">Contact Us</a></li>
                     <li class="nav"><a href="faq.html" class="link1 black">FAQ</a></li>
                 </ul>
-    
+
             </div>
             <div class="sp">
                 <ul class="nav_items2">
@@ -115,15 +116,27 @@
             <div class="purchase-details">
                 <a href="user.html" class="backimg"><img src="img/back.png"></a>
                 <h3>Purchase history</h3>
-                <div class='circle'>
+                <div class="circle">
                     <div class="user">
-                        <img src="img/Poe.jpg" class="teacher">
+                        <img src="img/Poe2.jpg" class="userElements" />
                     </div>
+                    <a href="profile.html">
+                        <div class="mypage_icon">
+                            <img src="img/user.png" class="userElements" />
+                        </div>
+                        <div class="arc"></div>
+                    </a>
                     <a href="purchase_history.html">
                         <div class="mypage1_icon">
-                            <img src="img/money2.png" class="teacher">
+                            <img src="img/money2.png" class="userElements" />
                         </div>
-                        <div class='arc1'></div>
+                        <div class="arc1"></div>
+                    </a>
+                    <a href="register_courses.html">
+                        <div class="mypage2_icon">
+                            <img src="img/class.png" class="userElements" />
+                        </div>
+                        <div class="arc2"></div>
                     </a>
                 </div>
                 <div class="purchase-contents">
@@ -262,29 +275,6 @@
         transform: rotate(335deg) skewX(30deg);
     }
 
-    .mypage_icon {
-        width: 60px;
-        margin: 0 auto;
-        position: absolute;
-        top: -75px;
-        left: 111px;
-    }
-
-    .mypage1_icon {
-        width: 40px;
-        margin: 0 auto;
-        position: absolute;
-        top: 82px;
-        left: -77px;
-    }
-
-    .mypage2_icon {
-        width: 60px;
-        margin: 0 auto;
-        position: absolute;
-        top: 101px;
-        right: -80px;
-    }
 
     .arc1:before {
         box-sizing: border-box;
@@ -415,6 +405,77 @@
     }
 
     @media only screen and (max-width: 768px) {
+        .mypage {
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        .mypage h3 {
+            font-size: 16px;
+            margin: 0px 0px 90px 0px;
+        }
+
+        .user img {
+            width: 133px;
+            height: 133px;
+        }
+
+        .circle {
+            width: 135px;
+            height: 135px;
+            padding: 5px;
+        }
+
+        .mypage_icon {
+            left: 70px;
+        }
+
+        .mypage_icon {
+            width: 27px;
+            margin: 0 auto;
+            position: absolute;
+            top: -65px;
+            left: 60px;
+        }
+
+        .mypage1_icon {
+            width: 27px;
+            margin: 0 auto;
+            position: absolute;
+            top: 60px;
+            left: -65px;
+        }
+
+        .mypage2_icon {
+            width: 27px;
+            margin: 0 auto;
+            position: absolute;
+            top: 60px;
+            right: -65px;
+        }
+
+        .arc:before,
+        .arc1:before,
+        .arc2:before {
+            border: solid 0.6em #D9D9D9;
+            width: 200%;
+            height: 200%;
+        }
+
+        .logoutBtn {
+            width: 71px;
+            height: 28px;
+            margin: 0 auto;
+            display: block;
+        }
+        .purchase-details h3 {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 44px;
+    color: #ED1C24;
+    margin-top: 0px;
+}
         .purchase-details {
             width: 100%;
             margin: 0 auto;
@@ -424,45 +485,6 @@
             padding: 35px 0px 0px;
         }
 
-        .purchase-details h3 {
-            font-style: italic;
-            font-weight: 700;
-            font-size: 27px;
-            line-height: 44px;
-            color: #ED1C24;
-            margin-top: 0px;
-        }
-
-        .circle {
-            position: relative;
-            margin: 7em auto;
-            width: 150px;
-            height: 150px;
-            padding: 15px;
-            border-radius: 50%;
-        }
-
-        .user img {
-            width: 150px;
-            height: 150px;
-            margin: 0 auto;
-            display: block;
-            /* padding: 50px 0px 50px; */
-            transition: box-shadow 0.7s;
-            /* margin: 15px 84px; */
-            position: relative;
-            border-radius: 50%;
-            list-style: none;
-        }
-
-        .mypage1_icon {
-            width: 40px;
-            margin: 0 auto;
-            position: absolute;
-            top: 65px;
-            left: -71px;
-        }
-
         td {
             padding: 5px;
             text-align: left;
@@ -470,7 +492,7 @@
             border-left: 3px solid #C5C5C5;
             border-right: 3px solid #C5C5C5;
             /* border-bottom: 3px solid #C5C5C5; */
-            height: 48px;
+            height: 38px;
         }
     }
 </style>

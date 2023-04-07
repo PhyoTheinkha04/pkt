@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/animate.css" />
     <link rel="stylesheet" href="css/responsive.css" />
     <link rel="icon" type="image/x-icon" href="img/pkt.png" />
+    <link rel="stylesheet" href="css/user.css">
   </head>
 
   <body>
@@ -132,26 +133,26 @@
           <h3>User Details</h3>
           <div class="circle">
             <div class="user">
-              <img src="img/Poe.jpg" class="userElements" />
+              <img src="img/Poe2.jpg" class="userElements" />
             </div>
             <a href="profile.html">
               <div class="mypage_icon">
                 <img src="img/user2.png" class="userElements" />
               </div>
-              <div class="arc"></div>
+              <div class="arc"></div> 
             </a>
-              <a href="purchase_history.html">
-                <div class="mypage1_icon">
-                  <img src="img/money.png" class="userElements" />
-                </div>
-                <div class="arc1"></div>
-              </a>
-              <a href="register_courses.html">
-                <div class="mypage2_icon">
-                  <img src="img/class.png" class="userElements" />
-                </div>
-                <div class="arc2"></div>
-              </a>
+            <a href="purchase_history.html">
+              <div class="mypage1_icon">
+                <img src="img/money.png" class="userElements" />
+              </div>
+              <div class="arc1"></div>
+            </a>
+            <a href="register_courses.html">
+              <div class="mypage2_icon">
+                <img src="img/class.png" class="userElements" />
+              </div>
+              <div class="arc2"></div>
+            </a>
           </div>
           <div class="details-contents">
             <dl>
@@ -247,14 +248,14 @@
 <style>
   .circle {
     position: relative;
-    margin: 98px 0px 0px 198px;
+    margin: auto;
     width: 200px;
     height: 200px;
     padding: 15px;
     border-radius: 50%;
-  }
+}
 
-  .arc {
+.arc {
     overflow: hidden;
     position: absolute;
     top: -1em;
@@ -263,18 +264,33 @@
     left: -1em;
     transform-origin: 100% 100%;
     transform: rotate(60deg) skewX(30deg);
-  }
-  .arc1 {
-    overflow: hidden;
-    position: absolute;
-    top: -1em;
-    right: 50%;
-    bottom: 50%;
-    left: -1em;
-    transform-origin: 100% 100%;
-    transform: rotate(335deg) skewX(30deg);
 }
-.arc2 {
+
+.mypage_icon {
+    width: 40px;
+    margin: 0 auto;
+    position: absolute;
+    top: -77px;
+    left: 94px;
+}
+
+.mypage1_icon {
+    width: 40px;
+    margin: 0 auto;
+    position: absolute;
+    top: 82px;
+    left: -77px;
+}
+
+.mypage2_icon {
+    width: 40px;
+    margin: 0 auto;
+    position: absolute;
+    top: 81px;
+    right: -80px;
+}
+
+.arc1 {
     overflow: hidden;
     position: absolute;
     top: -1em;
@@ -284,30 +300,50 @@
     transform-origin: 100% 100%;
     transform: rotate(145deg) skewX(30deg);
 }
-  .mypage_icon {
-    width: 60px;
-    margin: 0 auto;
-    position: absolute;
-    top: -78px;
-    left: 88px;
-  }
 
-  .mypage1_icon {
-    width: 60px;
-    margin: 0 auto;
+.arc1 {
+    overflow: hidden;
     position: absolute;
-    top: 101px;
-    left: -80px;
-  }
+    /* make sure top & left values are - the width of the border */
+    /* the bottom right corner is the centre of the parent circle */
+    top: -1em;
+    right: 50%;
+    bottom: 50%;
+    left: -1em;
+    /* the transform origin is the bottom right corner */
+    transform-origin: 100% 100%;
+    /* rotate by any angle */
+    /* the skew angle is 90deg - the angle you want for the arc */
+    transform: rotate(335deg) skewX(30deg);
+}
 
-  .mypage2_icon {
-    width: 60px;
-    margin: 0 auto;
+.arc2 {
+    overflow: hidden;
     position: absolute;
-    top: 101px;
-    right: -80px;
-  }
-  .arc:before, .arc1:before, .arc2:before {
+    /* make sure top & left values are - the width of the border */
+    /* the bottom right corner is the centre of the parent circle */
+    top: -1em;
+    right: 50%;
+    bottom: 50%;
+    left: -1em;
+    /* the transform origin is the bottom right corner */
+    transform-origin: 100% 100%;
+    /* rotate by any angle */
+    /* the skew angle is 90deg - the angle you want for the arc */
+    transform: rotate(145deg) skewX(30deg);
+}
+.arc:before{
+ border: solid 1em #ED1C24;
+    box-sizing: border-box;
+    display: block;
+    width: 200%;
+    height: 200%;
+    border-radius: 50%;
+    transform: skewX(-30deg);
+    content: '';
+}
+.arc1:before,
+.arc2:before {
     box-sizing: border-box;
     display: block;
     border: solid 1em #D9D9D9;
@@ -317,6 +353,8 @@
     transform: skewX(-30deg);
     content: '';
 }
+
+
   .mypage-details {
     width: 634px;
     margin: 0 auto;
@@ -333,7 +371,7 @@
     font-size: 36px;
     line-height: 44px;
     color: #ed1c24;
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 100px 0px
     /* background-image: url(./img/back.png);
     background-repeat: no-repeat; */
   }
@@ -425,9 +463,13 @@
       margin: 0 auto;
     }
     .mypage-details h3 {
-      font-size: 16px;
-      padding-bottom: 50px;
-    }
+    font-size: 20px;
+    padding-bottom: 50px;
+    margin: 0px 0px 11px 0px;
+    font-weight: 700;
+    font-family: Arial;
+    font-style: normal;
+}
     .circle {
       width: 135px;
       height: auto;
@@ -478,5 +520,9 @@
     img.userElements {
       width: 100%;
     }
+    .details-contents dl {
+    display: flex;
+    padding-left: 30px;
+}
   }
 </style>

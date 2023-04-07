@@ -16,7 +16,18 @@
         padding-top: 0px;
         display: block;
     }
-
+    .nav_items2 .nav ul {
+        background: rgb(218 218 218);
+        visibility: hidden;
+        opacity: 0;
+        min-width: 5rem;
+        position: absolute;
+        transition: all 0.5s ease;
+        /* margin-top: 1rem; */
+        display: none;
+        list-style: none;
+        z-index: 1;
+    }
     .logo {
         width: 15%;
     }
@@ -77,10 +88,17 @@
         margin: 0px;
     }
 
+    .newElement::-webkit-scrollbar-thumb {
+        border: 7px solid#D9D9D9;
+        background: #f3f3f3;
+        border-radius: 30px;
+        margin: 0px auto;
+        height: 100px;
+    }
+
     .head {
         position: absolute;
-        z-index: -1;
-        width: 60%;
+        width: 54%;
         right: -0%;
         top: -3%;
         -webkit-animation-name: bounceInDown;
@@ -92,6 +110,45 @@
         margin: 0px;
     }
 
+    @keyframes bounceInDown {
+
+        0%,
+        60%,
+        75%,
+        90%,
+        100% {
+            -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+            transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        }
+
+        0% {
+            opacity: 0;
+            -webkit-transform: translate3d(0, -3000px, 0);
+            transform: translate3d(0, -3000px, 0);
+        }
+
+        60% {
+            opacity: 1;
+            -webkit-transform: translate3d(0, 25px, 0);
+            transform: translate3d(0, 25px, 0);
+        }
+
+        75% {
+            -webkit-transform: translate3d(0, -10px, 0);
+            transform: translate3d(0, -10px, 0);
+        }
+
+        90% {
+            -webkit-transform: translate3d(0, 5px, 0);
+            transform: translate3d(0, 5px, 0);
+        }
+
+        100% {
+            -webkit-transform: none;
+            transform: none;
+        }
+    }
+
     ul.circles {
         list-style: none;
     }
@@ -100,6 +157,7 @@
     .txt2 {
         font-size: 16px;
     }
+
     .main_ttl {
         font-weight: 600;
         font-size: 20px;
@@ -107,6 +165,7 @@
         color: #ED1C24;
         font-style: italic;
     }
+
     header {
         height: 161px;
     }
@@ -119,7 +178,7 @@
 
     .element1 {
         background: rgba(235, 235, 235, 0.5);
-        box-shadow: 6px 6px 4px #c9d4de;
+        box-shadow: 4px 4px 4px #c9d4de;
         border-radius: 24px;
         width: 48%;
         height: auto;
@@ -145,7 +204,7 @@
     }
 
     .course_elements {
-        width: 90%;
+        width: 94%;
         margin: auto;
     }
 
@@ -185,7 +244,9 @@
         text-align: center;
         top: -17px;
         line-height: 20px;
+        width: 90%;
     }
+
     .abtDetail {
         width: inherit;
         height: inherit;
@@ -308,6 +369,7 @@
 
     .trainer {
         padding: 10px;
+        width: 6%;
     }
 
     .trName {
@@ -316,14 +378,18 @@
 
     .newElement {
         width: 90%;
+        box-shadow: 0px 4px 2px #c9d4de;
+        border-radius: 20px;
     }
 
     .newsDtil {
         width: 95%;
         height: 185.23px;
-        margin-left: 10px;
+        margin-left: 8px;
         margin-bottom: 25px;
         margin-top: 25px;
+        box-shadow: 3px 3px 2px #c9d4de;
+        border-radius: 20px;
     }
 
     .newsImg {
@@ -476,22 +542,22 @@
     }
 
     .sp .nav-open {
-        /* transform: translateX(-100px); */
+        transform: translateX(-100px);
         border-radius: 30px;
         background: rgba(232, 232, 232, 0.68);
         /* background: rgb(234 234 234 / 50%); */
-        backdrop-filter: blur(0px);
+        /* backdrop-filter: blur(0px); */
         border-radius: 0px;
         position: absolute;
         top: -100px;
         bottom: 0px;
-        right: -38px;
+        right: -215px;
         left: initial;
         width: 120px;
         height: 600px;
         text-align: center;
         border-radius: 20px;
-        box-shadow: 2px 2px 4px #C9D4DE;
+        box-shadow: 1px 1px 1px #C9D4DE;
     }
 
     nav .nav-menulinks {
@@ -517,7 +583,7 @@
     }
 
     nav .nav-menulinks.fade-in .nav:first-child {
-        padding-top: 130px;
+        padding-top: 180px;
     }
 
     nav .nav-menulinks.fade-in .nav {
@@ -534,12 +600,16 @@
 
     .menu-btn1 {
         width: 26px;
-        position: absolute;
-        top: 11%;
-        right: -1%;
-        padding: 8px;
-
-        box-shadow: none
+    position: absolute;
+    top: 11%;
+    right: -76px;
+    padding: 8px;
+    box-shadow: none;    width: 26px;
+    position: absolute;
+    top: 11%;
+    right: -76px;
+    padding: 8px;
+    box-shadow: none;
     }
 
     .menu-btn .line.line--1,
@@ -657,6 +727,7 @@
     .form_field {
         font-size: 12px;
     }
+
     /* FAQ */
     .faq {
         width: 100%;
@@ -667,22 +738,27 @@
         background: none !important;
         padding: 50px 0px 0px;
     }
+
     .faq-content {
         width: 90%;
     }
+
     .faq-right {
         width: 100%;
     }
+
     .accordion-item-header {
         padding: 0rem 0rem 0rem 0rem;
         font-size: 12px;
     }
+
     .accordion-item-body-content {
         font-size: 11px;
     }
+
     /* FAQ */
-    
-   
+
+
 
     /* course */
     .classroom {
@@ -761,19 +837,20 @@
         margin-left: 80px;
     }
 
-    .menu-btn {
-        position: absolute;
-        top: 0%;
-        right: 77%;
-        padding: 0;
-        width: 26px;
-        cursor: pointer;
-        z-index: 2;
-        background: #EAEAEA;
-        box-shadow: 4px 4px 4px #C9D4DE;
-        border-radius: 30px;
-        padding: 7px;
-    }
+.menu-btn {
+    position: absolute;
+    top: 0%;
+    /* right: 123px; */
+    left: 46px;
+    padding: 0;
+    width: 26px;
+    cursor: pointer;
+    z-index: 2;
+    background: #EAEAEA;
+    box-shadow: 4px 4px 4px #C9D4DE;
+    border-radius: 30px;
+    padding: 7px;
+}
 
     nav .nav-links .link,
     .nav-cat .nav-links .link {
@@ -913,6 +990,11 @@
         padding-bottom: 20px;
     }
 
+    .menuGroup {
+        position: relative;
+        left: 70px;
+    }
+
     /* course */
 
     /* purchase */
@@ -930,6 +1012,7 @@
         margin-right: 15px;
         margin-left: 15px;
     }
+
     .abtTitle2 {
         font-family: Arial;
         font-style: italic;
@@ -937,17 +1020,28 @@
         font-size: 14px;
         color: #ff8e08;
         margin: 0 auto;
+        text-align: center;
     }
+
     .abtTxt {
         font-family: Arial;
         font-style: normal;
         font-weight: 500;
-        font-size: 16px;
+        font-size: 14px;
         color: #818181;
-        width: 83%;
+        width: 100%;
         /* margin: 18px 0px 16px 0px; */
         margin: 0 auto;
+        margin-top: 20px;
+        text-align: center;
     }
+
+    .abtMain {
+        list-style: none;
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+
     .aboutus {
         width: 90%;
         height: initial;
@@ -959,6 +1053,7 @@
         display: block;
         justify-content: space-between;
     }
+
     .aboutus2 {
         width: 86%;
         height: 100%;
@@ -967,9 +1062,18 @@
         /* box-shadow: 6px 6px 4px #c9d4de; */
         background: no-repeat;
         box-shadow: none;
-        border-radius: 31px;
+        /* border-radius: 31px; */
         margin: 0 auto;
         margin-top: 77px;
     }
+
+    .newTxt {
+        float: right;
+        width: 68%;
+        margin-top: 34px;
+        margin-right: 0px;
+        font-size: 12px;
+    }
+
     /* about us */
 }

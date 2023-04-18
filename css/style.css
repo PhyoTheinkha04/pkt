@@ -90,7 +90,18 @@ a {
   opacity: 1;
   display: block;
 }
-
+.langauge{
+  width: 8%;
+  display: flex;
+  list-style: none;
+  position: absolute;
+  right: 21px;
+  top: 79px;
+  justify-content: space-between;
+}
+.langauge img{ 
+  width: 50%;
+}
 .nav_items .nav ul li {
   padding: 10px;
   border-bottom: 3.5px solid #ed1c24;
@@ -167,7 +178,7 @@ a {
   position: relative;
   display: block;
   padding: 16px 0;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 16px;
   font-weight: 700;
   transition: color 0.1s, background-color 0.1s, padding 0.2s ease-in;
@@ -481,7 +492,7 @@ h2 {
   list-style: none;
   width: 12%;
   background: rgba(225, 225, 225, 0.4);
-  box-shadow: 6px 6px 6px #c9d4de;
+  box-shadow: 4px 4px 6px #c9d4de;
   border-radius: 26px;
   padding: 18px 34px;
 }
@@ -532,7 +543,7 @@ h2 {
 
 .founder {
   background: rgba(225, 225, 225, 0.4);
-  box-shadow: 6px 6px 4px #c9d4de;
+  box-shadow: 4px 4px 4px #c9d4de;
   border-radius: 30px;
   width: 819px;
   margin: auto;

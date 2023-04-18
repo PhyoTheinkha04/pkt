@@ -2,7 +2,7 @@
     .head {
         position: absolute;
         z-index: -1;
-        width: 36%;
+        width: 33%;
         right: 0%;
         top: -2%;
 
@@ -46,7 +46,7 @@
 
     .headerTxt {
         position: absolute;
-        left: 228px;
+        left: 176px;
         top: 212px;
         -webkit-animation-name: bounceInDown;
         animation-name: bounceInDown;

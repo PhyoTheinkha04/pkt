@@ -1,9 +1,9 @@
 .slider {
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
   }
   .slick-slide {
-    margin: 0 50px;
+    margin: 0 30px;
   }
   .slick-list {
     margin: 0px -5px 0px -5px;
@@ -344,7 +344,7 @@
   }
   @media screen and (max-width: 768px) {
    .slider {
-        width: 63%;
+        width: 85%;
         margin: 0 auto;
     }
   .slick-slide {

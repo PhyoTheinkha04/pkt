@@ -38,7 +38,7 @@ a {
 }
 .nav_items {
   list-style: none;
-  width: 84.5%;
+  width: 83.5%;
   height: 426px;
   overflow: hidden;
   display: flex;
@@ -90,13 +90,13 @@ a {
   opacity: 1;
   display: block;
 }
-.langauge{
-  width: 8%;
+.langauge {
+  width: 7%;
   display: flex;
   list-style: none;
   position: absolute;
   right: 21px;
-  top: 79px;
+  top: 90px;
   justify-content: space-between;
 }
 .langauge img{ 
@@ -262,7 +262,7 @@ a {
   border-radius: 30px;
   text-align: center;
   top: 100%;
-  left: 3px;
+  left: 1px;
   padding: 0;
   border: none;
   transition: box-shadow 1s;
@@ -915,8 +915,8 @@ footer ul {
 
 .abtMain {
   list-style: none;
-  margin-top: 77px;
-  margin-bottom: 50px;
+  /* margin-top: 77px;
+  margin-bottom: 50px; */
 }
 
 .abtMain2 {
@@ -952,11 +952,11 @@ footer ul {
 }
 
 .aboutus2 {
-  width: 86%;
+  width: 76%;
   height: 100%;
   overflow: hidden;
-  background: rgba(235, 235, 235, 0.4);
-  box-shadow: 6px 6px 4px #c9d4de;
+  /* background: rgba(235, 235, 235, 0.4);
+  box-shadow: 6px 6px 4px #c9d4de; */
   border-radius: 31px;
   margin: 0 auto;
   margin-top: 77px;
@@ -965,7 +965,7 @@ footer ul {
 .abtImg {
   width: 321px;
   margin-bottom: 35px;
-  margin-top: 35px;
+  /* margin-top: 35px; */
   border-radius: 14px;
 }
 

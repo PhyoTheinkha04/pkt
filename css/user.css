@@ -108,7 +108,7 @@
 }
 
 .mypage h3 {
-    font-style: italic;
+    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 44px;
@@ -134,7 +134,7 @@
 }
 
 .user_signup h3 {
-    font-style: italic;
+    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 44px;

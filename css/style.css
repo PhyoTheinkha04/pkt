@@ -120,7 +120,9 @@ a {
 
   color: #ed1c24;
 }
-
+.red{
+    color: #ed1c24;
+}
 .nav_items2 .nav ul {
   background: rgb(255 255 255 / 0%);
   visibility: hidden;
@@ -521,16 +523,15 @@ h2 {
 }
 
 .link3 {
-  text-decoration: none;
-  float: right;
-  font-family: Arial;
-  font-style: italic;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 15px;
-  text-align: center;
-
-  color: #828282;
+    text-decoration: none;
+    float: right;
+    font-family: Arial;
+    /* font-style: italic; */
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 15px;
+    text-align: center;
+    color: #828282;
 }
 
 .FounderImg {
@@ -600,7 +601,7 @@ h2 {
 
 .newsDtil {
   background: rgba(225, 225, 225, 0.4);
-  box-shadow: 5px 5px 2px #c9d4de;
+  box-shadow: 4px 4px 2px #c9d4de;
   border-radius: 26px 26px 26px 26px;
   width: 77%;
   height: 185.23px;
@@ -611,6 +612,9 @@ h2 {
 .newTxt {
   margin-top: 33px;
   margin-right: 58px;
+  float: right;
+  width: 50%;
+  
 }
 .newTxt2 {
   width: 90%;
@@ -635,7 +639,7 @@ h2 {
   width: 76%;
   height: 500px;
   overflow: auto;
-  box-shadow: 0px 6px 2px #c9d4de;
+  box-shadow: 0px 4px 2px #c9d4de;
   border-radius: 26px;
   margin: auto;
   overflow-y: scroll;
@@ -724,7 +728,7 @@ h2 {
 
 .newsDtil {
   background: rgba(225, 225, 225, 0.4);
-  box-shadow: 6px 6px 2px #c9d4de;
+  box-shadow: 4px 4px 2px #c9d4de;
   border-radius: 26px 26px 26px 26px;
   width: 80%;
   height: 185.23px;
@@ -928,7 +932,7 @@ footer ul {
   font-style: italic;
   font-weight: 700;
   font-size: 16px;
-  color: #ed1c24;
+  color: #000000;
   float: left;
   margin-right: 15px;
 }
@@ -938,7 +942,7 @@ footer ul {
   font-style: italic;
   font-weight: 700;
   font-size: 16px;
-  color: #ff8e08;
+  color: #ed1c24;
 }
 
 .abtTxt {

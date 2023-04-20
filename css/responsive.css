@@ -343,7 +343,7 @@
 
     .founderDtil {
         margin-top: 0px;
-        font-size: 12px;
+        font-size: 14px;
         text-align: left;
     }
 
@@ -382,7 +382,7 @@
         font-size: 18px;
     }
     .title5{
-        font-size: 18px;
+        font-size: 14px;
     }
     .newElement {
         width: 90%;
@@ -527,9 +527,8 @@
         right: 0;
         z-index: 1;
     }
-
     .classroom .classnav {
-        width: 100%;
+        width: 67%;
         /* height: 450px; */
         position: absolute;
         right: 0;
@@ -546,9 +545,9 @@
     nav {
         overflow: hidden;
         position: relative;
-        transform: translateX(149px);
+        transform: translateX(2px);
         height: 600px;
-        width: 121px;
+        width: 0px;
         left: 488px;
         /* right: 0px; */
         top: -100px;
@@ -764,7 +763,7 @@
 
     .contactTxt2,
     .form_field {
-        font-size: 12px;
+        font-size: 16px;
     }
 
     /* FAQ */
@@ -922,16 +921,32 @@
         border-radius: 20px;
         height: 450px;;
     }
-
+    .classTitle {
+        font-family: Arial;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        color: #ed1c24;
+    }
     .courseDtil {
         width: 80%;
         margin: 0 auto;
+        
     }
-
+    .contactTxt {
+        font-family: Arial;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        color: #818181;
+        margin-bottom: 46px;
+    }
     .courseDtil img {
         width: 100%;
         border-radius: 30px;
         /* float: left; */
+        margin-bottom: 13px;
     }
 
     .classdtil {
@@ -1048,7 +1063,7 @@
         font-style: italic;
         font-weight: 700;
         font-size: 14px;
-        color: #ed1c24;
+        color: #000000;
         float: left;
         margin-right: 15px;
         margin-left: 15px;
@@ -1059,7 +1074,7 @@
         font-style: italic;
         font-weight: 700;
         font-size: 14px;
-        color: #ff8e08;
+        color:#ed1c24;
         margin: 0 auto;
         text-align: center;
     }
@@ -1075,6 +1090,7 @@
         margin: 0 auto;
         margin-top: 20px;
         text-align: center;
+        margin-bottom: 20px;
     }
 
     .abtMain {
@@ -1094,6 +1110,8 @@
         display: block;
         padding: 0px;
         justify-content: space-between;
+        background: none;
+        box-shadow: none;
     }
 
     .aboutus2 {

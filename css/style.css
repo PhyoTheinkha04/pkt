@@ -1574,6 +1574,7 @@ nav .nav-links .link:hover,.nav-cat .nav-links .link:hover {
   width: 340px;
   border-radius: 30px;
   float: left;
+  margin-right: 20px;
 }
 .classdtil {
   font-family: Arial;

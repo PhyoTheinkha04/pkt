@@ -431,7 +431,7 @@ a {
 .aboutus {
   width: 76%;
   /* height: 465px; */
-  overflow: hidden;
+
   margin: 0 auto;
   /* padding: 50px 0px; */
 }
@@ -939,7 +939,7 @@ footer ul {
 
 .abtTitle2 {
   font-family: Arial;
-  font-style: normal;
+  font-style: N;
   font-weight: 700;
   font-size: 16px;
   color: #ed1c24;

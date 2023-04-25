@@ -1248,14 +1248,15 @@ nav.nav-open {
   padding: 20px;
 
 }
-nav,.nav-cat {
-    overflow: hidden;
-    position: relative;
-    transform: translateX(-300px);
-    height: 90%;
-    width: 525px;
-    left: 358px;
-    transition: all 800ms cubic-bezier(.8, 0, .33, 1);
+nav, .nav-cat {
+  overflow: hidden;
+  position: relative;
+  transform: translateX(-300px);
+  height: 90%;
+  width: 533px;
+  left: 272px;
+  transition: all 800ms cubic-bezier(.8, 0, .33, 1);
+  top: -71px;
 }
 
 
@@ -1270,18 +1271,18 @@ nav.nav-open,.nav-cat.nav-opens{
     border-radius: 40px 30px 30px 30px;
 }
 
-.menu-btn{
-    position: absolute;
-    top: 0%;
-    left: 40%;
-    padding: 0;
-    width: 30px;
-    cursor: pointer;
-    z-index: 2;
-    background: #EAEAEA;
-    box-shadow: 4px 4px 4px #C9D4DE;
-    border-radius: 30px;
-    padding: 20px;
+.menu-btn {
+  position: relative;
+  top: 35%;
+  padding: 0;
+  width: 30px;
+  cursor: pointer;
+  z-index: 2;
+  background: #EAEAEA;
+  box-shadow: 4px 4px 4px #C9D4DE;
+  border-radius: 30px;
+  padding: 20px;
+  right: 99px;
 }
 .menu-btn1 {
   position: absolute;
@@ -1430,6 +1431,7 @@ nav .nav-links .link:hover,.nav-cat .nav-links .link:hover {
   justify-content: space-around;
   width: 84%;
   margin: 0 auto;
+  margin-top: -134px;
 }
 
 .classes {

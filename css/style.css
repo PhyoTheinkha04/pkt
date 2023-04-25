@@ -1252,9 +1252,9 @@ nav, .nav-cat {
   overflow: hidden;
   position: relative;
   transform: translateX(-300px);
-  height: 90%;
-  width: 533px;
-  left: 272px;
+  height: 79%;
+  width: 521px;
+  left: 204px;
   transition: all 800ms cubic-bezier(.8, 0, .33, 1);
   top: -71px;
 }

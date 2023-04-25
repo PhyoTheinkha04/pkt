@@ -899,8 +899,19 @@ footer ul {
 .footicon {
   width: 20px;
   height: 18px;
+  position: relative;
+  top: 5px;
 }
-
+p.addr {
+  text-indent: -25px;
+  padding-left: 20px;
+  line-height: 1.5;
+  color: #e74c3c;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+}
 .copyRight {
   width: 100%;
   font-family: Arial;

@@ -63,6 +63,8 @@
         height: auto;
         text-align: center;
         margin-top: 5%;
+        position: relative;
+        z-index: 2;
 
     }
 
@@ -188,6 +190,7 @@
     }
 
     li.element1.element2 {
+        width: 45%;
         float: left;
         margin: 15px 14px 0 0;
     }
@@ -203,7 +206,7 @@
     }
 
     .course_elements {
-        width: 94%;
+        width: 90%;
         margin: auto;
     }
 
@@ -318,26 +321,27 @@
 
     .founder {
         border-radius: 30px;
-        width: 90%;
+        width: 80%;
         box-shadow: none;
         border-radius: initial;
         margin: auto;
-        padding: 50px 0px;
+        padding: 20px 0px 0px;
         background: none;
     }
 
     .FounderImg {
         box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.25);
-        border-radius: 10px;
-        float: left;
+        border-radius: 20px;
+        float: none;
         margin-right: 2px;
-        width: 94%;
-        margin-bottom: 20px;
+        width: 100%;
+        margin: 0 auto 20px;
+        display: block;
     }
 
     .founder h1 {
         font-size: 16px;
-        float: left;
+        /* float: left; */
         margin-bottom: 10px;
     }
 
@@ -359,16 +363,17 @@
     }
 
     .founder dd {
-        width: 70%;
+        width: 100%;
         margin: 0 auto;
     }
     .aboutusTXT {
         font-size: 14px;
       }
     .teacher {
+        width: 90%;
+        margin: 0 auto 27px;
         border-radius: 10px;
     }
-
     .trainer {
         padding: 10px;
         width: 6%;
@@ -487,7 +492,13 @@
         width: 190px;
         display: flex;
     }
-
+    @media only screen and (max-width: 320px){
+    .footLink3 {
+        list-style: none;
+        width: 120px;
+        display: flex;
+    }
+    }
     footer a {
         font-size: 10px;
     }
@@ -561,7 +572,7 @@
         transform: translateX(-300px);
         height: 100%;
         width: 321px;
-        left: 66px;
+        left: 28px;
         transition: all 800ms cubic-bezier(.8, 0, .33, 1);
     }
 
@@ -586,7 +597,7 @@
         position: absolute;
         top: -100px;
         bottom: 0px;
-        right: -215px;
+        right: -100px;
         left: initial;
         width: 120px;
         height: 600px;
@@ -645,7 +656,7 @@
     box-shadow: none;    width: 26px;
     position: absolute;
     top: 11%;
-    right: -95px;
+    right: 19px;
     padding: 8px;
     box-shadow: none;
     }
@@ -856,7 +867,9 @@
         background-position: 8px 8px;
         margin-top: 25px;
     }
-
+    .classroom-content {
+        padding: 0px;
+    }
     .search:focus {
         width: 100%;
         padding: 10px 0px 10px 60px;
@@ -879,7 +892,7 @@
     position: absolute;
     top: 0%;
     /* right: 123px; */
-    left: 46px;
+    left: 9px;
     padding: 0;
     width: 26px;
     cursor: pointer;
@@ -1047,8 +1060,8 @@
     }
 
     .menuGroup {
-        position: relative;
-        left: 70px;
+        /* position: relative; */
+        /* left: 70px; */
     }
 
     /* course */

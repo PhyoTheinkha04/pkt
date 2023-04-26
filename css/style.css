@@ -1260,19 +1260,20 @@ nav.nav-open {
 
 }
 nav, .nav-cat {
-  overflow: hidden;
-  position: relative;
-  transform: translateX(-300px);
-  height: 79%;
-  width: 521px;
-  left: 204px;
-  transition: all 800ms cubic-bezier(.8, 0, .33, 1);
-  top: -77px;
+    overflow: hidden;
+    position: absolute;
+    transform: translateX(-300px);
+    height: 79%;
+    width: 521px;
+    left: -100px;
+    transition: all 800ms cubic-bezier(.8, 0, .33, 1);
+    top: -77px;
 }
 
 
 
 nav.nav-open,.nav-cat.nav-opens{
+    height: 600px;
     transform: translateX(0px);
     border-radius: 30px;
     background: rgba(255, 255, 255, 0.6);
@@ -1283,17 +1284,17 @@ nav.nav-open,.nav-cat.nav-opens{
 }
 
 .menu-btn {
-  position: relative;
-  top: 35%;
-  padding: 0;
-  width: 30px;
-  cursor: pointer;
-  z-index: 2;
-  background: #EAEAEA;
-  box-shadow: 4px 4px 4px #C9D4DE;
-  border-radius: 30px;
-  padding: 20px;
-  right: 99px;
+    position: relative;
+    top: 35%;
+    padding: 0;
+    width: 30px;
+    cursor: pointer;
+    z-index: 2;
+    background: #EAEAEA;
+    box-shadow: 4px 4px 4px #C9D4DE;
+    border-radius: 30px;
+    padding: 20px;
+    right: 99px;
 }
 .menu-btn1 {
   position: absolute;
@@ -1411,12 +1412,12 @@ nav .nav-links .link:hover,.nav-cat .nav-links .link:hover {
   left: -340px; */
 }
 .classnav {
-  height: 600px;
-  position: absolute;
-  left: 0px;
-  /* right: 136px; */
-  z-index: 1;
-  position: absolute;
+    /* height: 600px; */
+    position: absolute;
+    left: 0px;
+    /* right: 136px; */
+    z-index: 1;
+    position: relative;
 }
 .classroom {
   height: 100%;

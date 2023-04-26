@@ -1264,7 +1264,7 @@ nav, .nav-cat {
     position: absolute;
     transform: translateX(-300px);
     height: 79%;
-    width: 521px;
+    width: 350px;
     left: -100px;
     transition: all 800ms cubic-bezier(.8, 0, .33, 1);
     top: -77px;
@@ -1405,7 +1405,7 @@ nav .nav-links .link:hover,.nav-cat .nav-links .link:hover {
     font-family: Arial;
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 22px;
     color: #ed1c24;
 
 }
@@ -1597,7 +1597,7 @@ nav .nav-links .link:hover,.nav-cat .nav-links .link:hover {
 }
 
 .line {
-  width: 300px;
+  width: 250px;
   background: #ed1c24;
   height: 3px;
   border: none;

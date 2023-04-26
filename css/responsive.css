@@ -551,6 +551,7 @@
         height: 3px;
         border: none;
         margin-top: 15px;
+        margin-bottom: 15px;
     }
     nav {
         overflow: hidden;
@@ -905,13 +906,13 @@
 
     nav .nav-links .link,
     .nav-cat .nav-links .link {
-        margin: 20px 0;
+        margin: 18px 0;
         text-decoration: none;
         font-family: sans-serif;
         color: rgba(0, 0, 0, 0.9);
         font-weight: 600;
         text-transform: uppercase;
-        font-size: 15px;
+        font-size: 14px;
         transition: all 300ms cubic-bezier(.9, 0, .33, 1);
     }
 
@@ -919,8 +920,9 @@
         font-family: Arial;
         font-style: normal;
         font-weight: 600;
-        font-size: 20px;
+        font-size: 19px;
         color: #ED1C24;
+        margin-top: 10px;
     }
 
     nav.nav-open,

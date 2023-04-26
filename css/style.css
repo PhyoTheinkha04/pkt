@@ -1385,14 +1385,14 @@ nav .nav-links.fade-in,.nav-cat .nav-links.fade-in {
 }
 
 nav .nav-links .link,.nav-cat .nav-links .link {
-    margin: 20px 0;
-    text-decoration: none;
-    font-family: sans-serif;
-    color: rgba(0, 0, 0, 0.9);
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 15px;
-    transition: all 300ms cubic-bezier(.9, 0, .33, 1);
+  margin: 20px 0;
+  text-decoration: none;
+  font-family: sans-serif;
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: all 300ms cubic-bezier(.9, 0, .33, 1);
 }
 
 nav .nav-links .link:hover,.nav-cat .nav-links .link:hover {
@@ -1400,11 +1400,13 @@ nav .nav-links .link:hover,.nav-cat .nav-links .link:hover {
 }
 
 .navTitle {
-  font-family: Arial;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  color: #ed1c24;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #ed1c24;
+
 }
 .menuGroup{
   /* position: relative;
@@ -1599,6 +1601,7 @@ nav .nav-links .link:hover,.nav-cat .nav-links .link:hover {
   height: 3px;
   border: none;
   margin-top: 15px;
+  margin-bottom: 15px;
 }
 .courseDtil img {
   width: 340px;

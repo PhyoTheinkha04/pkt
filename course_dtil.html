@@ -52,6 +52,13 @@
                     <li class="nav"><a href="contact.html" class="link1 white">Contact Us</a></li>
                     <li class="nav"><a href="faq.html" class="link1 white">FAQ</a></li>
                     <img src="img/edu1.png" class="head">
+                    <ul class="langauge">
+                        <li><button onClick="" id="mm"><img src="img/mm.png"></button></li>
+                        <li>
+                            <button onClick="" id="jp"><img src="img/Japan.png"></button>
+                        </li>
+                        <li><button onClick="" id="uk"><img src="img/uk.png"></button></li>
+                    </ul>
                 </ul>
             </div>
             <div class="sp">
@@ -90,9 +97,11 @@
                                         </button>
                                     </li>
                                     <ul class="langauge">
-                                        <li class="lang"><a href=""><img src="img/mm.png"></a></li>
-                                        <li class="lang"><a href=""><img src="img/Japan.png"></a></li>
-                                        <li class="lang"><a href=""><img src="img/uk.png"></a></li>
+                                        <li><button onClick="" id="mm"><img src="img/mm.png"></button></li>
+                                        <li>
+                                            <button onClick="" id="jp"><img src="img/Japan.png"></button>
+                                        </li>
+                                        <li><button onClick="" id="uk"><img src="img/uk.png"></button></li>
                                     </ul>
                                 </ul>
                             </div>
@@ -103,9 +112,9 @@
         </div>
         </div>
         <div class="headerTxt pc">
-            <p class="txt2 margin">Course detail</p>
+            <p class="txt2 margin">သင်တန်းအသေးစိတ်</p>
             <button class="loginBtn">
-                <a href="login.html" class="txt3">Login</a>
+                <a href="login.html" class="txt3">လော့ခ်အင်ဝင်ရန်</a>
             </button>
         </div>
     </header>
@@ -114,7 +123,8 @@
 
 
         <div class="classroom">
-            <p class="searchTitle">Find your courses</p>
+            <div class="classroom-content">
+            <p class="searchTitle">သင်တန်းများရှာဖွေရန်</p>
             <form class="search-focus">
                 <input type="text" name="search" class="search" autocomplete="off">
             </form>
@@ -142,28 +152,28 @@
                 </p>
 
             </div>
-            
+        </div>
            
         </div>
-        <p class="title8">Related courses</p>
+        <p class="title8">ဆက်စပ်နေသောသင်တန်းများ</p>
          <ul class="relatedClass">
                 <li class="classes2">
                     <img src="img/n5.jpg" alt="" class="classImg">
                     <p class="classTitle">Basic N5</p>
                     <p class="classType">Online class</p>
-                    <button><a href="course_dtil.html">More detail</a></button>
+                    <button><a href="course_dtil.html">ပိုမိုသိရှိရန်</a></button>
                 </li>
                 <li class="classes2">
                     <img src="img/n5.jpg" alt="" class="classImg">
                     <p class="classTitle">Basic N5</p>
                     <p class="classType">Online class</p>
-                    <button><a href="course_dtil.html">More detail</a></button>
+                    <button><a href="course_dtil.html">ပိုမိုသိရှိရန်</a></button>
                 </li>
                 <li class="classes2">
                     <img src="img/n5.jpg" alt="" class="classImg">
                     <p class="classTitle">Basic N5</p>
                     <p class="classType">Online class</p>
-                    <button><a href="course_dtil.html">More detail</a></button>
+                    <button><a href="course_dtil.html">ပိုမိုသိရှိရန်</a></button>
                 </li>
 
             </ul>
@@ -182,16 +192,16 @@
         <ul class="info">
             <p class="title6">Information For</p>
             <li class="footLink1">
-                <a href="">Home</a>
-                <a href="">About Us</a>
-                <a href="">Offline Course</a>
-                <a href="">Online Course</a>
-                <a href="">Q&A</a>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="local.html">Local Course</a>
+                <a href="online.html">Online Course</a>
+                <a href="faq.html">Q&A</a>
             </li>
 
             <li class="footLink2">
-                <a href="">News</a>
-                <a href="">Contacts</a>
+                <a href="news.html">News</a>
+                <a href="contact.html">Contact</a>
             </li>
         </ul>
         <ul class="address">
@@ -230,5 +240,12 @@
     <script src="js/common.js"></script>
     <script src="js/scrollup.js"></script>
 </footer>
-
+<script>
+    $(document).on('click', '#jp', function (e) {
+        window.location='./course_dtil_jp.html';
+});
+$(document).on('click', '#uk', function (e) {
+        window.location='./course_dtil_uk.html';
+});
+</script>
 </html>

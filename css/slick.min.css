@@ -107,7 +107,7 @@
 }
 
 .slick-slider {
-    margin-bottom: 30px
+    margin-bottom: 50px
 }
 
 .slick-dots {
@@ -169,3 +169,8 @@
     opacity: .75;
     color: #000
 }
+@media screen and (max-width: 768px) {
+     .slick-slider {
+         margin-bottom: 30px;
+     }
+   }

@@ -102,6 +102,13 @@ a {
 .langauge img{ 
   width: 50%;
 }
+.langauge button {
+  text-align: inherit;
+  background-color: initial;
+  margin: 0em;
+  padding: 0px;
+  border-width: 0px;
+}
 .nav_items .nav ul li {
   padding: 10px;
   border-bottom: 3.5px solid #ed1c24;
@@ -741,7 +748,7 @@ h2 {
 .accordion {
   width: 100%;
   max-width: 1000px;
-  margin: 0rem auto 0.5rem;
+  margin: 0rem auto 1.5rem;
 }
 
 .accordion-item {
@@ -767,7 +774,6 @@ h2 {
   cursor: pointer;
   font-size: 20px;
 }
-
 .accordion-item-header::after {
   content: "\002B";
   font-size: 2rem;
@@ -775,7 +781,7 @@ h2 {
   right: 1rem;
 }
 
-.accordion-item-header.active::after {
+.accordion-item-header.actives::after {
   content: "\2212";
 }
 
@@ -865,7 +871,7 @@ footer ul {
 .footLink2 {
   float: left;
   list-style: none;
-  width: 77px;
+  width: 70px;
   margin-left: 92px;
 }
 
@@ -893,7 +899,7 @@ footer ul {
   margin-bottom: 38px;
   color: #f33642;
   margin-top: 50px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .footicon {
@@ -1433,7 +1439,7 @@ nav .nav-links .link:hover,.nav-cat .nav-links .link:hover {
   /* padding: 5% 11%; */
 }
 .classroom-content {
-  padding: 5% 11%;
+  padding: 5% 11% 13%;
 }
 .classImg {
   width: 100%;
@@ -1525,7 +1531,7 @@ nav .nav-links .link:hover,.nav-cat .nav-links .link:hover {
   display: block;
 }
 .relatedClass {
-  width: 82%;
+  width: 76%;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
@@ -1617,6 +1623,7 @@ nav .nav-links .link:hover,.nav-cat .nav-links .link:hover {
   font-weight: 500;
   font-size: 15px;
   color: #818181;
+  line-height: 2;
 }
 .courseDtil {
   width: 102%;

@@ -325,7 +325,7 @@
         box-shadow: none;
         border-radius: initial;
         margin: auto;
-        padding: 20px 0px 0px;
+        padding: 0px 0px 0px;
         background: none;
     }
 
@@ -384,7 +384,7 @@
         font-size: 16px;
     }
     .title4{
-        font-size: 18px;
+        font-size: 16px;
     }
     .title5{
         font-size: 14px;
@@ -1117,6 +1117,7 @@
     .aboutus {
         width: 90%;
         height: initial;
+        overflow: hidden;
     }
 
     .aboutus_elements {

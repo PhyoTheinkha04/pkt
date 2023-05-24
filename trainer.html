@@ -40,11 +40,6 @@
     <header class="header">
         <div class="container">
             <div class="pc">
-                <ul class="langauge">
-                    <li><a href=""><img src="img/mm.png"></a></li>
-                    <li><a href=""><img src="img/Japan.png"></a></li>
-                    <li><a href=""><img src="img/uk.png"></a></li>
-                </ul>
                 <ul class="nav_items">
                     <li class="nav"><a href="index.html" class="link1 active">Home</a></li>
                     <li class="nav"><a href="about.html" class="link1">About Us</a></li>
@@ -59,6 +54,13 @@
                     <li class="nav"><a href="contact.html" class="link1 white">Contact Us</a></li>
                     <li class="nav"><a href="faq.html" class="link1 white">FAQ</a></li>
                     <img src="img/edu1.png" class="head">
+                    <ul class="langauge">
+                        <li><button onClick="" id="mm"><img src="img/mm.png"></button></li>
+                        <li>
+                            <button onClick="" id="jp"><img src="img/Japan.png"></button>
+                        </li>
+                        <li><button onClick="" id="uk"><img src="img/uk.png"></button></li>
+                    </ul>
                 </ul>
             </div>
             <div class="sp">
@@ -99,9 +101,11 @@
                                         </button>
                                     </li>
                                     <ul class="langauge">
-                                        <li class="lang"><a href=""><img src="img/mm.png"></a></li>
-                                        <li class="lang"><a href=""><img src="img/Japan.png"></a></li>
-                                        <li class="lang"><a href=""><img src="img/uk.png"></a></li>
+                                        <li><button onClick="" id="mm"><img src="img/mm.png"></button></li>
+                                        <li>
+                                            <button onClick="" id="jp"><img src="img/Japan.png"></button>
+                                        </li>
+                                        <li><button onClick="" id="uk"><img src="img/uk.png"></button></li>
                                     </ul>
                                 </ul>
                             </div>
@@ -157,16 +161,16 @@
         <ul class="info">
             <p class="title6">Information For</p>
             <li class="footLink1">
-                <a href="">Home</a>
-                <a href="">About Us</a>
-                <a href="">Offline Course</a>
-                <a href="">Online Course</a>
-                <a href="">Q&A</a>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="local.html">Local Course</a>
+                <a href="online.html">Online Course</a>
+                <a href="faq.html">Q&A</a>
             </li>
 
             <li class="footLink2">
-                <a href="">News</a>
-                <a href="">Contacts</a>
+                <a href="news.html">News</a>
+                <a href="contact.html">Contact</a>
             </li>
         </ul>
         <ul class="address">
@@ -204,6 +208,14 @@
 
     <script src="js/common.js"></script>
     <script src="js/scrollup.js"></script>
+    <script>
+        $(document).on('click', '#jp', function (e) {
+            window.location='./trainer-jp.html';
+      });
+      $(document).on('click', '#uk', function (e) {
+            window.location='./trainer-uk.html';
+      });
+      </script>
 </footer>
 <style>
     .trainerDtil {

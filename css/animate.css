@@ -1,12 +1,15 @@
-
+@media only screen and (max-width: 426px){
+.head {
+    /* width: 54% !important; */
+}
+}
 @media only screen and (min-width: 768px) {
     .head {
         position: absolute;
         z-index: -1;
         width: 33%;
         right: 0%;
-        top: -2%;
-
+        /* top: -2%; */
         -webkit-animation-name: bounceInDown;
         animation-name: bounceInDown;
         -webkit-animation-duration: 2s;
